@@ -61,4 +61,4 @@ If the privacy policy changes, the updated version will be published in this rep
 If you have any questions about this Privacy Policy, feel free to reach out:
 
 **Email:** coolsim@gmail.com  
-**GitHub Issues:** https://github.com/Thecoolsim/chrome-extensions/css-scanner-pro
+**GitHub Issues:** [https://github.com/Thecoolsim/chrome-extensions/css-scanner-pro](https://github.com/Thecoolsim/chrome-extensions/tree/main/css-scanner-pro)
