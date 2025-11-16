@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CSS Scanner Pro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            min-height: 100vh;
+        }
+
+        header {
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #1e40af;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        h2 {
+            color: #1e40af;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #2563eb;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            background: #dbeafe;
+            border-left: 4px solid #2563eb;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .highlight strong {
+            color: #1e40af;
+            font-size: 1.1em;
+        }
+
+        .summary {
+            background: #f0fdf4;
+            border: 2px solid #10b981;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .summary h2 {
+            color: #059669;
+            border: none;
+            margin-top: 0;
+        }
+
+        .check {
+            color: #10b981;
+        }
+
+        .cross {
+            color: #ef4444;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 2px solid #e5e7eb;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy for CSS Scanner Pro</h1>
+            <div class="meta">
+                <strong>Last Updated:</strong> November 16, 2024<br>
+                <strong>Effective Date:</strong> November 16, 2024
+            </div>
+        </header>
+
+        <section>
+            <h2>Overview</h2>
+            <p>CSS Scanner Pro is a developer tool designed to help web developers inspect, copy, and analyze CSS styles on any webpage. This privacy policy explains how the extension handles data.</p>
+        </section>
+
+        <section>
+            <h2>Our Commitment</h2>
+            <div class="highlight">
+                <strong>CSS Scanner Pro does NOT collect, store, transmit, or share any user data whatsoever.</strong>
+            </div>
+        </section>
+
+        <section>
+            <h2>Data Collection</h2>
+
+            <h3>What We DO NOT Collect:</h3>
+            <ul>
+                <li><span class="cross">❌</span> Personal information</li>
+                <li><span class="cross">❌</span> Browsing history</li>
+                <li><span class="cross">❌</span> Website content or URLs</li>
+                <li><span class="cross">❌</span> CSS or HTML code you inspect</li>
+                <li><span class="cross">❌</span> User preferences or settings (except locally)</li>
+                <li><span class="cross">❌</span> Analytics or usage statistics</li>
+                <li><span class="cross">❌</span> Cookies or tracking data</li>
+                <li><span class="cross">❌</span> Any form of user identification</li>
+            </ul>
+
+            <h3>What Happens Locally:</h3>
+            <ul>
+                <li><span class="check">✅</span> <strong>User Settings Storage:</strong> Your preferences (language selection, CSS selector mode, display options) are stored locally in your browser using Chrome's <code>chrome.storage.sync</code> API. This data:
+                    <ul>
+                        <li>Stays on your device</li>
+                        <li>Syncs across your Chrome browsers if you're signed in (via Google's sync, not our servers)</li>
+                        <li>Is never transmitted to our servers (we don't have any servers)</li>
+                        <li>Can be cleared by uninstalling the extension</li>
+                    </ul>
+                </li>
+                <li><span class="check">✅</span> <strong>Clipboard Access:</strong> When you click "Copy", the extension writes CSS/HTML code to your clipboard. This:
+                    <ul>
+                        <li>Only happens when you explicitly click the "Copy" button</li>
+                        <li>Is a local operation in your browser</li>
+                        <li>Is not transmitted or stored anywhere</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How the Extension Works</h2>
+            <ol>
+                <li><strong>User Activation:</strong> The extension only runs when YOU activate it by:
+                    <ul>
+                        <li>Clicking the extension icon</li>
+                        <li>Using the keyboard shortcut (Ctrl+Shift+S or Cmd+Shift+S)</li>
+                    </ul>
+                </li>
+                <li><strong>Local Processing:</strong> All CSS extraction and analysis happens entirely in your browser. No data leaves your device.</li>
+                <li><strong>CodePen Export (Optional):</strong> When you click "CodePen" button:
+                    <ul>
+                        <li>The extension opens CodePen.io with your extracted HTML/CSS</li>
+                        <li>This is done via a direct browser navigation (like clicking a link)</li>
+                        <li>No data is sent through our servers</li>
+                        <li>CodePen's privacy policy applies once you're on their site</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Permissions Explained</h2>
+            <p>The extension requests the following permissions. Here's exactly why:</p>
+
+            <h3>Required Permissions:</h3>
+
+            <p><strong><code>storage</code></strong></p>
+            <ul>
+                <li><strong>Why:</strong> Save your preferences (language, settings) locally</li>
+                <li><strong>Data Stored:</strong> Only your extension settings</li>
+                <li><strong>Location:</strong> Your browser only</li>
+            </ul>
+
+            <p><strong><code>activeTab</code></strong></p>
+            <ul>
+                <li><strong>Why:</strong> Access the current tab when you activate the scanner</li>
+                <li><strong>What It Does:</strong> Allows the extension to read CSS styles from the page you're viewing</li>
+                <li><strong>When:</strong> Only when you manually activate the extension</li>
+            </ul>
+
+            <p><strong><code>clipboardWrite</code></strong></p>
+            <ul>
+                <li><strong>Why:</strong> Copy CSS/HTML code when you click "Copy"</li>
+                <li><strong>What It Does:</strong> Writes code to your clipboard</li>
+                <li><strong>When:</strong> Only when you click the Copy button</li>
+            </ul>
+
+            <p><strong><code>scripting</code></strong></p>
+            <ul>
+                <li><strong>Why:</strong> Inject the CSS scanner into pages</li>
+                <li><strong>What It Does:</strong> Adds the scanner interface to pages you're inspecting</li>
+                <li><strong>When:</strong> Only when you activate the extension</li>
+            </ul>
+
+            <p><strong><code>contextMenus</code></strong></p>
+            <ul>
+                <li><strong>Why:</strong> Provide right-click menu options</li>
+                <li><strong>What It Does:</strong> Adds scanner shortcuts to right-click menu</li>
+                <li><strong>When:</strong> Only appears when extension is enabled</li>
+            </ul>
+
+            <p><strong><code>&lt;all_urls&gt;</code> (Host Permission)</strong></p>
+            <ul>
+                <li><strong>Why:</strong> Allow the extension to work on any website you visit</li>
+                <li><strong>What It Does:</strong> Enables CSS inspection on any webpage</li>
+                <li><strong>Important:</strong> This is a developer tool that MUST work on any site you're developing or inspecting</li>
+                <li><strong>Data Collection:</strong> NONE - This permission is only used to inject the scanner UI and read CSS styles locally</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Third-Party Services</h2>
+
+            <h3>CodePen Integration (Optional Feature)</h3>
+            <ul>
+                <li>When you click "Export to CodePen", you're redirected to CodePen.io</li>
+                <li>The HTML/CSS is passed via URL parameters (standard web practice)</li>
+                <li>CodePen's privacy policy applies: <a href="https://codepen.io/privacy" target="_blank">https://codepen.io/privacy</a></li>
+                <li>This is entirely optional - you don't have to use this feature</li>
+            </ul>
+
+            <h3>No Other Third Parties</h3>
+            <ul>
+                <li><span class="cross">❌</span> No analytics services (Google Analytics, etc.)</li>
+                <li><span class="cross">❌</span> No advertising networks</li>
+                <li><span class="cross">❌</span> No tracking pixels</li>
+                <li><span class="cross">❌</span> No external APIs or services</li>
+                <li><span class="cross">❌</span> No servers or databases</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Data Retention</h2>
+            <p><strong>We retain ZERO data</strong> because we don't collect any data in the first place.</p>
+            <p>Your local settings are stored in your browser and will be deleted when you:</p>
+            <ul>
+                <li>Uninstall the extension</li>
+                <li>Clear your browser data</li>
+                <li>Manually reset the extension settings</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>CSS Scanner Pro is a professional developer tool. We do not knowingly collect data from anyone, including children under 13.</p>
+        </section>
+
+        <section>
+            <h2>Your Rights</h2>
+            <p>Since we don't collect any data, there's no data to:</p>
+            <ul>
+                <li>Request access to</li>
+                <li>Request deletion of</li>
+                <li>Request correction of</li>
+                <li>Request export of</li>
+            </ul>
+            <p>Your settings are stored locally in your browser and you have full control over them.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>If you have questions about this privacy policy:</p>
+            <ul>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Thecoolsim" target="_blank">https://github.com/Thecoolsim</a></li>
+                <li><strong>Website:</strong> <a href="https://adjatan.org/" target="_blank">https://adjatan.org/</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Legal Compliance</h2>
+            <p>This extension complies with:</p>
+            <ul>
+                <li>GDPR (General Data Protection Regulation)</li>
+                <li>CCPA (California Consumer Privacy Act)</li>
+                <li>Other privacy regulations</li>
+            </ul>
+            <p><strong>How?</strong> By not collecting any data in the first place.</p>
+        </section>
+
+        <div class="summary">
+            <h2>Summary (TL;DR)</h2>
+            <ul>
+                <li><span class="check">✅</span> <strong>Zero data collection</strong></li>
+                <li><span class="check">✅</span> <strong>All processing happens locally in your browser</strong></li>
+                <li><span class="check">✅</span> <strong>No servers, no databases, no tracking</strong></li>
+                <li><span class="check">✅</span> <strong>Settings stored locally only</strong></li>
+                <li><span class="check">✅</span> <strong>Optional CodePen export (handled by CodePen, not us)</strong></li>
+                <li><span class="check">✅</span> <strong>User-activated only - doesn't run automatically</strong></li>
+                <li><span class="check">✅</span> <strong>Open for inspection</strong></li>
+            </ul>
+        </div>
+
+        <footer>
+            <p><strong>CSS Scanner Pro is a privacy-first developer tool. We believe in transparency and user control.</strong></p>
+            <p>Version 1.0.0 &copy; 2024 Simon Adjatan</p>
+        </footer>
+    </div>
+</body>
+</html>

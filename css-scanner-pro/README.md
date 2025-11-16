@@ -49,10 +49,7 @@ Coming soon...
 
 ### Manual Installation (Developer Mode)
 
-**Option 1: Download the ZIP archive**  
-Download the extension from [here](https://github.com/Thecoolsim/chrome-extensions/blob/main/css-scanner-pro/css-scanner-pro-v1.0.0-production.zip) and unzip it to a folder, then follow step 2 below to load it in Chrome.
-
-**Option 2: Clone the Extension**
+1. **Download the Extension**
    ```bash
    git clone https://github.com/Thecoolsim/css-scanner-pro.git
    cd css-scanner-pro
