@@ -49,7 +49,7 @@ Coming soon...
 
 ### Manual Installation (Developer Mode)
 
-1. **Download the Extension**
+1. **Download the Extension** or use this archive https://github.com/Thecoolsim/chrome-extensions/raw/refs/heads/main/css-scanner-pro/css-scanner-pro-production.zip
    ```bash
    git clone https://github.com/Thecoolsim/css-scanner-pro.git
    cd css-scanner-pro

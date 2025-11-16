@@ -1,0 +1,301 @@
+{
+  "extName": {
+    "message": "CSS Scanner Pro"
+  },
+  "extDescription": {
+    "message": "The fastest and easiest way to inspect, copy and analyze CSS styles on any webpage"
+  },
+  "extTitle": {
+    "message": "CSS Scanner Pro - Click to activate"
+  },
+  "cmdActivateScanner": {
+    "message": "Activate CSS Scanner"
+  },
+  "cmdToggleGrid": {
+    "message": "Toggle grid overlay"
+  },
+  "cmdScanParent": {
+    "message": "Scan parent element"
+  },
+
+  "guideTitle": {
+    "message": "CSS Scanner Pro - Quick Guide"
+  },
+  "guideQuickStart": {
+    "message": "Quick Start"
+  },
+  "guideHowToUse": {
+    "message": "How to Use"
+  },
+  "guideFeatures": {
+    "message": "Features"
+  },
+  "guideProTip": {
+    "message": "Pro Tip:"
+  },
+
+  "shortcutActivateScanner": {
+    "message": "Activate Scanner"
+  },
+  "shortcutToggleGrid": {
+    "message": "Toggle Grid"
+  },
+  "shortcutScanParent": {
+    "message": "Scan Parent"
+  },
+
+  "guideStep1": {
+    "message": "Press $SHORTCUT$ or click the extension icon to activate",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep2": {
+    "message": "Hover over any element on the page to see its CSS"
+  },
+  "guideStep3": {
+    "message": "Use tabs: $CSS$, $HTML$, $SOURCE$, $EDITOR$",
+    "placeholders": {
+      "css": {
+        "content": "$1"
+      },
+      "html": {
+        "content": "$2"
+      },
+      "source": {
+        "content": "$3"
+      },
+      "editor": {
+        "content": "$4"
+      }
+    }
+  },
+  "guideStep4": {
+    "message": "Click $COPY$ to copy code to clipboard",
+    "placeholders": {
+      "copy": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep5": {
+    "message": "Press $SPACE$ to freeze/unfreeze, $ESC$ to close",
+    "placeholders": {
+      "space": {
+        "content": "$1"
+      },
+      "esc": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "featureSyntaxHighlighting": {
+    "message": "Syntax Highlighting - Color-coded CSS & HTML"
+  },
+  "featureIncludeChildren": {
+    "message": "Include Children - Extract entire component CSS"
+  },
+  "featureLiveEditor": {
+    "message": "Live Editor - Edit & apply CSS in real-time"
+  },
+  "featureCodePenExport": {
+    "message": "CodePen Export - One-click component export"
+  },
+  "featureOptimizedCSS": {
+    "message": "Optimized CSS - Clean, shorthand properties"
+  },
+
+  "proTipMessage": {
+    "message": "Enable \"Include child elements CSS\" in the CSS tab to extract complete UI components with all nested styles!"
+  },
+
+  "tabCSS": {
+    "message": "CSS"
+  },
+  "tabHTML": {
+    "message": "HTML"
+  },
+  "tabSource": {
+    "message": "Source"
+  },
+  "tabEditor": {
+    "message": "Editor"
+  },
+
+  "btnCopy": {
+    "message": "Copy"
+  },
+  "btnCodePen": {
+    "message": "CodePen"
+  },
+  "btnPin": {
+    "message": "Pin"
+  },
+  "btnUnpin": {
+    "message": "Unpin"
+  },
+  "btnApply": {
+    "message": "Apply"
+  },
+  "btnReset": {
+    "message": "Reset"
+  },
+  "btnSettings": {
+    "message": "Settings"
+  },
+  "btnGuide": {
+    "message": "Show Guide"
+  },
+  "btnClose": {
+    "message": "Close"
+  },
+
+  "optionIncludeChildren": {
+    "message": "Include child elements CSS"
+  },
+  "optionCopyHTML": {
+    "message": "Copy HTML along with CSS"
+  },
+  "optionCopyOnClick": {
+    "message": "Copy CSS on click"
+  },
+  "optionPinOnSpace": {
+    "message": "Pin/Unpin with Space"
+  },
+  "optionShowGrid": {
+    "message": "Show grid overlay"
+  },
+
+  "notificationActivated": {
+    "message": "CSS Scanner activated!"
+  },
+  "notificationDeactivated": {
+    "message": "CSS Scanner deactivated"
+  },
+  "notificationCopied": {
+    "message": "Copied to clipboard!"
+  },
+  "notificationPinned": {
+    "message": "Inspector pinned"
+  },
+  "notificationUnpinned": {
+    "message": "Inspector unpinned"
+  },
+  "notificationApplied": {
+    "message": "CSS applied!"
+  },
+
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "settingsSave": {
+    "message": "Save"
+  },
+
+  "footerFreeze": {
+    "message": "freeze"
+  },
+  "footerUnfreeze": {
+    "message": "unfreeze"
+  },
+  "footerSpace": {
+    "message": "Space"
+  },
+  "footerBackspace": {
+    "message": "Backspace"
+  },
+  "footerEsc": {
+    "message": "Esc"
+  },
+  "footerTo": {
+    "message": "to"
+  },
+  "footerClose": {
+    "message": "close"
+  },
+
+  "settingsSectionOnClick": {
+    "message": "On click:"
+  },
+  "settingsOptionCopyOnClick": {
+    "message": "Copy code automatically when clicking element"
+  },
+  "settingsOptionPinOnSpace": {
+    "message": "Pin window when pressing Space"
+  },
+  "settingsSectionChildCSS": {
+    "message": "Child elements' CSS:"
+  },
+  "settingsOptionIncludeChildren": {
+    "message": "Include child elements"
+  },
+  "settingsOptionExcludeChildren": {
+    "message": "Don't include"
+  },
+  "settingsSectionHTML": {
+    "message": "HTML code:"
+  },
+  "settingsOptionCopyHTML": {
+    "message": "Copy HTML along with CSS"
+  },
+  "settingsSectionDisplay": {
+    "message": "Display:"
+  },
+  "settingsOptionShowGrid": {
+    "message": "Show grid overlay"
+  },
+  "settingsOptionGuidelines": {
+    "message": "Guidelines"
+  },
+  "settingsSectionLanguage": {
+    "message": "Language:"
+  },
+  "settingsLanguageAuto": {
+    "message": "Auto-detect (Browser Default)"
+  },
+  "settingsLanguageHelp": {
+    "message": "Select your preferred language. Changes will apply after saving."
+  },
+  "settingsSectionSelectors": {
+    "message": "CSS selectors:"
+  },
+  "settingsSelectorSmart": {
+    "message": "Smartly generate selectors (use #id or .class)"
+  },
+  "settingsSelectorOriginal": {
+    "message": "Copy original selectors (from stylesheet)"
+  },
+  "settingsSelectorNone": {
+    "message": "Don't copy CSS selectors"
+  },
+  "settingsSelectorTruncated": {
+    "message": "Truncated selector"
+  },
+  "settingsSectionOther": {
+    "message": "Other preferences:"
+  },
+  "settingsOptionIgnoreInherited": {
+    "message": "Ignore inherited styles"
+  },
+  "settingsOptionIgnoreVendor": {
+    "message": "Ignore browser vendor prefixes"
+  },
+  "settingsOptionIgnoreBoxSizing": {
+    "message": "Ignore box-sizing"
+  },
+  "settingsOptionConvertFontSize": {
+    "message": "Convert font-size to px"
+  },
+  "settingsOptionNestPseudo": {
+    "message": "Nest pseudo-classes and media queries"
+  },
+  "settingsOptionConvertURLs": {
+    "message": "Convert relative URLs to absolute"
+  },
+  "settingsSaveButton": {
+    "message": "Save Settings"
+  }
+}
