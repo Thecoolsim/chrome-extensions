@@ -140,6 +140,7 @@
 
       // CSS selectors
       selectorMode: 'smart', // 'smart', 'original', 'none', 'truncated'
+      maxBreadcrumbDepth: 5, // Maximum depth for breadcrumb navigation (0 = unlimited)
 
       // Language
       language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
@@ -2169,16 +2170,30 @@
       current = current.parentElement;
     }
 
-    breadcrumb.innerHTML = path.map((item, index) =>
-      `<span class="breadcrumb-item" data-index="${index}">${item}</span>`
+    // Apply depth limiting if configured
+    const maxDepth = state.settings.maxBreadcrumbDepth || 0;
+    const isTruncated = maxDepth > 0 && path.length > maxDepth;
+    const displayPath = isTruncated ? path.slice(-maxDepth) : path;
+
+    // Build breadcrumb HTML with ellipsis indicator if truncated
+    let breadcrumbHTML = '';
+    if (isTruncated) {
+      breadcrumbHTML = `<span class="breadcrumb-ellipsis" title="Path truncated - showing last ${maxDepth} of ${path.length} levels">...</span> › `;
+    }
+
+    breadcrumbHTML += displayPath.map((item, index) =>
+      `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}">${item}</span>`
     ).join(' › ');
 
+    breadcrumb.innerHTML = breadcrumbHTML;
+
     // Add click handlers for breadcrumb navigation
-    breadcrumb.querySelectorAll('.breadcrumb-item').forEach((item, index) => {
+    breadcrumb.querySelectorAll('.breadcrumb-item').forEach((item) => {
       item.addEventListener('click', (e) => {
         e.stopPropagation();
+        const dataIndex = parseInt(item.getAttribute('data-index'));
         let target = element;
-        const steps = path.length - 1 - index;
+        const steps = path.length - 1 - dataIndex;
         for (let i = 0; i < steps; i++) {
           target = target.parentElement;
         }
@@ -2474,6 +2489,13 @@
 
       .breadcrumb-item:hover {
         text-decoration: underline !important;
+      }
+
+      .breadcrumb-ellipsis {
+        color: #fbbf24 !important;
+        font-weight: bold !important;
+        cursor: help !important;
+        padding: 0 4px !important;
       }
 
       .inspector-tabs {
