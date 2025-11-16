@@ -1,0 +1,65 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Scanner Pro",
+  "version": "1.0.0",
+  "description": "The fastest and easiest way to inspect, copy and analyze CSS styles on any webpage",
+
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+    },
+    "default_title": "CSS Scanner Pro - Click to activate"
+  },
+
+  "background": {
+    "service_worker": "js/background.js"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Activate CSS Scanner"
+    },
+    "toggle-grid": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "Command+Shift+G"
+      },
+      "description": "Toggle grid overlay"
+    },
+    "scan-parent": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Scan parent element"
+    }
+  },
+
+  "web_accessible_resources": [{
+    "resources": ["img/*", "css/*"],
+    "matches": ["<all_urls>"]
+  }]
+}

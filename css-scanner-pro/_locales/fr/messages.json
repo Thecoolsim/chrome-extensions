@@ -1,0 +1,197 @@
+{
+  "extName": {
+    "message": "CSS Scanner Pro"
+  },
+  "extDescription": {
+    "message": "Le moyen le plus rapide et le plus simple d'inspecter, copier et analyser les styles CSS sur n'importe quelle page web"
+  },
+  "extTitle": {
+    "message": "CSS Scanner Pro - Cliquez pour activer"
+  },
+  "cmdActivateScanner": {
+    "message": "Activer le scanner CSS"
+  },
+  "cmdToggleGrid": {
+    "message": "Basculer la grille"
+  },
+  "cmdScanParent": {
+    "message": "Scanner l'élément parent"
+  },
+
+  "guideTitle": {
+    "message": "CSS Scanner Pro - Guide rapide"
+  },
+  "guideQuickStart": {
+    "message": "Démarrage rapide"
+  },
+  "guideHowToUse": {
+    "message": "Comment utiliser"
+  },
+  "guideFeatures": {
+    "message": "Fonctionnalités"
+  },
+  "guideProTip": {
+    "message": "Astuce :"
+  },
+
+  "shortcutActivateScanner": {
+    "message": "Activer le scanner"
+  },
+  "shortcutToggleGrid": {
+    "message": "Basculer la grille"
+  },
+  "shortcutScanParent": {
+    "message": "Scanner le parent"
+  },
+
+  "guideStep1": {
+    "message": "Appuyez sur $SHORTCUT$ ou cliquez sur l'icône de l'extension pour activer",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep2": {
+    "message": "Survolez n'importe quel élément de la page pour voir son CSS"
+  },
+  "guideStep3": {
+    "message": "Utilisez les onglets : $CSS$, $HTML$, $SOURCE$, $EDITOR$",
+    "placeholders": {
+      "css": {
+        "content": "$1"
+      },
+      "html": {
+        "content": "$2"
+      },
+      "source": {
+        "content": "$3"
+      },
+      "editor": {
+        "content": "$4"
+      }
+    }
+  },
+  "guideStep4": {
+    "message": "Cliquez sur $COPY$ pour copier le code dans le presse-papiers",
+    "placeholders": {
+      "copy": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep5": {
+    "message": "Appuyez sur $SPACE$ pour geler/dégeler, $ESC$ pour fermer",
+    "placeholders": {
+      "space": {
+        "content": "$1"
+      },
+      "esc": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "featureSyntaxHighlighting": {
+    "message": "Coloration syntaxique - CSS & HTML en couleur"
+  },
+  "featureIncludeChildren": {
+    "message": "Inclure les enfants - Extraire tout le CSS du composant"
+  },
+  "featureLiveEditor": {
+    "message": "Éditeur en direct - Modifier et appliquer le CSS en temps réel"
+  },
+  "featureCodePenExport": {
+    "message": "Export CodePen - Export de composant en un clic"
+  },
+  "featureOptimizedCSS": {
+    "message": "CSS optimisé - Propriétés abrégées et propres"
+  },
+
+  "proTipMessage": {
+    "message": "Activez « Inclure le CSS des éléments enfants » dans l'onglet CSS pour extraire des composants UI complets avec tous les styles imbriqués !"
+  },
+
+  "tabCSS": {
+    "message": "CSS"
+  },
+  "tabHTML": {
+    "message": "HTML"
+  },
+  "tabSource": {
+    "message": "Source"
+  },
+  "tabEditor": {
+    "message": "Éditeur"
+  },
+
+  "btnCopy": {
+    "message": "Copier"
+  },
+  "btnCodePen": {
+    "message": "CodePen"
+  },
+  "btnPin": {
+    "message": "Épingler"
+  },
+  "btnUnpin": {
+    "message": "Désépingler"
+  },
+  "btnApply": {
+    "message": "Appliquer"
+  },
+  "btnReset": {
+    "message": "Réinitialiser"
+  },
+  "btnSettings": {
+    "message": "Paramètres"
+  },
+  "btnGuide": {
+    "message": "Afficher le guide"
+  },
+  "btnClose": {
+    "message": "Fermer"
+  },
+
+  "optionIncludeChildren": {
+    "message": "Inclure le CSS des éléments enfants"
+  },
+  "optionCopyHTML": {
+    "message": "Copier le HTML avec le CSS"
+  },
+  "optionCopyOnClick": {
+    "message": "Copier le CSS au clic"
+  },
+  "optionPinOnSpace": {
+    "message": "Épingler/Désépingler avec Espace"
+  },
+  "optionShowGrid": {
+    "message": "Afficher la grille"
+  },
+
+  "notificationActivated": {
+    "message": "Scanner CSS activé !"
+  },
+  "notificationDeactivated": {
+    "message": "Scanner CSS désactivé"
+  },
+  "notificationCopied": {
+    "message": "Copié dans le presse-papiers !"
+  },
+  "notificationPinned": {
+    "message": "Inspecteur épinglé"
+  },
+  "notificationUnpinned": {
+    "message": "Inspecteur désépinglé"
+  },
+  "notificationApplied": {
+    "message": "CSS appliqué !"
+  },
+
+  "settingsTitle": {
+    "message": "Paramètres"
+  },
+  "settingsSave": {
+    "message": "Enregistrer"
+  }
+}

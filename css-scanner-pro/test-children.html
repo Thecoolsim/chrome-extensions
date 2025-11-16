@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test: Include Children CSS - CSS Scanner Pro</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 40px;
+      background: #f0f0f0;
+    }
+
+    .parent-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 24px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .card h2 {
+      margin: 0 0 12px 0;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .card p {
+      margin: 0 0 16px 0;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    .card .button {
+      display: inline-block;
+      background: white;
+      color: #667eea;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s;
+    }
+
+    .card .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .nested-structure {
+      background: #e0e7ff;
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid #818cf8;
+    }
+
+    .nested-structure .level-1 {
+      background: #c7d2fe;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+    }
+
+    .nested-structure .level-2 {
+      background: #a5b4fc;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 6px;
+    }
+
+    .nested-structure .level-3 {
+      background: #818cf8;
+      color: white;
+      padding: 10px;
+      margin-top: 8px;
+      border-radius: 6px;
+    }
+
+    .list-container {
+      background: #fef3c7;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #f59e0b;
+    }
+
+    .list-container ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+    }
+
+    .list-container li {
+      background: white;
+      padding: 12px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .list-container li:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .flex-item {
+      flex: 1;
+      background: #dbeafe;
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid #3b82f6;
+    }
+
+    .flex-item h3 {
+      margin: 0 0 10px 0;
+      color: #1e40af;
+    }
+
+    .flex-item p {
+      margin: 0;
+      color: #1e3a8a;
+    }
+
+    .instructions {
+      background: #fef5e7;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #f39c12;
+      margin-bottom: 30px;
+    }
+
+    .instructions h2 {
+      margin-top: 0;
+      color: #e67e22;
+    }
+
+    .instructions ol {
+      color: #795548;
+      line-height: 1.8;
+    }
+
+    .instructions code {
+      background: #fff3cd;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent-container">
+    <div class="instructions">
+      <h2>🧪 How to Test "Include Children CSS"</h2>
+      <ol>
+        <li>Activate CSS Scanner (click icon or press <code>Ctrl+Shift+S</code>)</li>
+        <li>Hover over a <strong>parent element</strong> with children (like the cards below)</li>
+        <li>Look at the <strong>CSS tab</strong> in the inspector</li>
+        <li>Find the checkbox: <strong>"Include child elements CSS"</strong></li>
+        <li><strong>Check the box</strong> to include CSS for all nested children</li>
+        <li><strong>Uncheck the box</strong> to see only the parent's CSS</li>
+        <li>Compare the difference!</li>
+      </ol>
+    </div>
+
+    <h1>Test Elements Below</h1>
+    <p style="color: #666; margin-bottom: 30px;">Hover over any card or container to see its CSS. Toggle the "Include children" checkbox to see all nested styles.</p>
+
+    <!-- Test Case 1: Card with nested elements -->
+    <div class="card">
+      <h2>Card with Children</h2>
+      <p>This card has a heading, paragraph, and button as children.</p>
+      <a href="#" class="button">Click Me</a>
+    </div>
+
+    <!-- Test Case 2: Deeply nested structure -->
+    <div class="nested-structure">
+      <h3 style="margin-top: 0;">Nested Structure (Hover This!)</h3>
+      <div class="level-1">
+        Level 1 - Purple background
+        <div class="level-2">
+          Level 2 - Lighter purple
+          <div class="level-3">
+            Level 3 - Dark purple with white text
+          </div>
+        </div>
+      </div>
+      <div class="level-1">
+        Another Level 1 element
+      </div>
+    </div>
+
+    <!-- Test Case 3: List container -->
+    <div class="list-container" style="margin-top: 20px;">
+      <h3 style="margin-top: 0; color: #d97706;">List Container (Hover This!)</h3>
+      <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+      </ul>
+    </div>
+
+    <!-- Test Case 4: Flex container -->
+    <div class="flex-container">
+      <div class="flex-item">
+        <h3>Flex Item 1</h3>
+        <p>This is inside a flex container</p>
+      </div>
+      <div class="flex-item">
+        <h3>Flex Item 2</h3>
+        <p>Hover the parent flex-container to see all children's CSS</p>
+      </div>
+      <div class="flex-item">
+        <h3>Flex Item 3</h3>
+        <p>Toggle "Include children" on and off</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 40px; padding: 20px; background: #d1fae5; border-radius: 8px; border: 2px solid #10b981;">
+      <h3 style="margin-top: 0; color: #065f46;">✅ What You Should See</h3>
+      <p style="color: #047857; margin: 0;">
+        <strong>Without "Include children":</strong> Only the CSS for the hovered element itself<br>
+        <strong>With "Include children":</strong> CSS for the parent + all nested children combined
+      </p>
+    </div>
+  </div>
+</body>
+</html>

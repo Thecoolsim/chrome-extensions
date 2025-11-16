@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Scanner Pro - Test Page</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
 
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      color: #1a202c;
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      color: #718096;
+      font-size: 18px;
+      margin-bottom: 32px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 24px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      margin: 0 0 12px 0;
+      font-size: 24px;
+    }
+
+    .card p {
+      margin: 0;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      background: #48bb78;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .button:hover {
+      background: #38a169;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(72, 187, 120, 0.4);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 32px;
+    }
+
+    .grid-item {
+      background: #f7fafc;
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid #e2e8f0;
+      text-align: center;
+    }
+
+    .grid-item:hover {
+      border-color: #667eea;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CSS Scanner Pro Test Page</h1>
+    <p class="subtitle">Hover over any element to test the CSS Scanner extension</p>
+
+    <div class="card">
+      <h2>Welcome to CSS Scanner Pro!</h2>
+      <p>This is a test page to demonstrate the CSS inspection tool. Try hovering over different elements to see their styles.</p>
+    </div>
+
+    <div class="card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+      <h2>Testing Different Styles</h2>
+      <p>Each card has unique styling that you can inspect and copy.</p>
+    </div>
+
+    <a href="#" class="button">Click Me - I'm a Button!</a>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h3>Grid Item 1</h3>
+        <p>This is in a CSS grid layout</p>
+      </div>
+      <div class="grid-item">
+        <h3>Grid Item 2</h3>
+        <p>Inspect the grid properties</p>
+      </div>
+      <div class="grid-item">
+        <h3>Grid Item 3</h3>
+        <p>Try the hover effects</p>
+      </div>
+    </div>
+
+    <div style="margin-top: 40px; padding: 20px; background: #fef5e7; border-left: 4px solid #f39c12; border-radius: 4px;">
+      <h3 style="margin-top: 0; color: #e67e22;">How to Use</h3>
+      <ol style="color: #795548; line-height: 1.8;">
+        <li>Click the CSS Scanner Pro extension icon in your toolbar</li>
+        <li>Or press <strong>Ctrl+Shift+S</strong> (Cmd+Shift+S on Mac)</li>
+        <li>Hover over any element to see its CSS</li>
+        <li>Click to copy CSS to clipboard</li>
+        <li>Press <strong>Space</strong> to pin CSS blocks</li>
+        <li>Press <strong>Escape</strong> to close</li>
+      </ol>
+    </div>
+  </div>
+
+  <footer style="margin-top: 60px; padding: 30px; background: #f8f9fa; border-radius: 12px; text-align: center; color: #6c757d;">
+    <p style="margin: 0 0 10px 0; font-size: 14px;">
+      <strong>CSS Scanner Pro</strong> - Created by <a href="https://adjatan.org/" target="_blank" style="color: #667eea; text-decoration: none; font-weight: 600;">Adjatan</a>
+    </p>
+    <p style="margin: 0; font-size: 13px;">
+      <a href="https://github.com/Thecoolsim" target="_blank" style="color: #6c757d; text-decoration: none; margin: 0 8px;">GitHub</a> |
+      <a href="https://x.com/adjatan" target="_blank" style="color: #6c757d; text-decoration: none; margin: 0 8px;">Twitter</a> |
+      <a href="https://www.facebook.com/adjatan" target="_blank" style="color: #6c757d; text-decoration: none; margin: 0 8px;">Facebook</a>
+    </p>
+  </footer>
+</body>
+</html>

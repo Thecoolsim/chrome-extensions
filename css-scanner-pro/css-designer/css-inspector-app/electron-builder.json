@@ -1,0 +1,50 @@
+{
+  "appId": "com.cssinspector.app",
+  "productName": "CSS Inspector",
+  "version": "1.0.0",
+  "description": "An instant visual CSS inspection tool with advanced features.",
+  "main": "src/main/main.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "directories": {
+    "buildResources": "assets"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "category": "Utility"
+  },
+  "mac": {
+    "target": [
+      "dmg",
+      "zip"
+    ],
+    "category": "public.app-category.developer-tools"
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "assets/icon.ico"
+  },
+  "build": {
+    "asar": true,
+    "extraResources": [
+      "assets/**/*"
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "your-github-username",
+      "repo": "css-inspector-app"
+    }
+  },
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps"
+  }
+}

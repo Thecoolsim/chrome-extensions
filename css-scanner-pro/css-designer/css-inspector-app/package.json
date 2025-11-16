@@ -1,0 +1,43 @@
+{
+  "name": "css-inspector-app",
+  "version": "1.0.0",
+  "description": "A CSS inspection tool with features like real-time editing, Tailwind CSS conversion, and advanced optimization.",
+  "main": "src/main/main.ts",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "jest"
+  },
+  "keywords": [
+    "CSS",
+    "Inspector",
+    "Electron",
+    "React",
+    "Tailwind"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^latest",
+    "react": "^latest",
+    "react-dom": "^latest",
+    "react-router-dom": "^latest"
+  },
+  "devDependencies": {
+    "typescript": "^latest",
+    "jest": "^latest",
+    "electron-builder": "^latest",
+    "ts-jest": "^latest"
+  },
+  "build": {
+    "appId": "com.example.cssinspector",
+    "files": [
+      "dist/**/*",
+      "src/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  }
+}

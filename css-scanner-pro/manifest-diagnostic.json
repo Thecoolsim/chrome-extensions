@@ -1,0 +1,68 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Scanner Pro (Diagnostic)",
+  "version": "1.0.0",
+  "description": "DIAGNOSTIC VERSION - CSS inspection tool with extensive console logging",
+  "default_locale": "en",
+  "author": "Simon Adjatan (https://adjatan.org/)",
+  "homepage_url": "https://github.com/Thecoolsim",
+
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+    },
+    "default_title": "CSS Scanner Pro (Diagnostic) - Click to activate"
+  },
+
+  "background": {
+    "service_worker": "js/background-diagnostic.js"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Activate CSS Scanner (Diagnostic)"
+    },
+    "toggle-grid": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "Command+Shift+G"
+      },
+      "description": "Toggle grid overlay"
+    },
+    "scan-parent": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Scan parent element"
+    }
+  },
+
+  "web_accessible_resources": [{
+    "resources": ["img/*", "css/*", "js/scanner-diagnostic.js"],
+    "matches": ["<all_urls>"]
+  }]
+}

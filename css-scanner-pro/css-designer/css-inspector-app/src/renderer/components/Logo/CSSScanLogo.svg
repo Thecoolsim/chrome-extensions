@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g fill="none" stroke="currentColor" stroke-width="2">
+    <circle cx="100" cy="100" r="95" />
+    <path d="M50 100 L100 50 L150 100 L100 150 Z" />
+  </g>
+  <text x="50%" y="50%" text-anchor="middle" fill="currentColor" font-size="20" dy=".3em">CSS Scan</text>
+</svg>

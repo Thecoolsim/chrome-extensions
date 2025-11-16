@@ -1,0 +1,197 @@
+{
+  "extName": {
+    "message": "CSS Scanner Pro"
+  },
+  "extDescription": {
+    "message": "La forma más rápida y fácil de inspeccionar, copiar y analizar estilos CSS en cualquier página web"
+  },
+  "extTitle": {
+    "message": "CSS Scanner Pro - Haz clic para activar"
+  },
+  "cmdActivateScanner": {
+    "message": "Activar escáner CSS"
+  },
+  "cmdToggleGrid": {
+    "message": "Alternar cuadrícula"
+  },
+  "cmdScanParent": {
+    "message": "Escanear elemento padre"
+  },
+
+  "guideTitle": {
+    "message": "CSS Scanner Pro - Guía rápida"
+  },
+  "guideQuickStart": {
+    "message": "Inicio rápido"
+  },
+  "guideHowToUse": {
+    "message": "Cómo usar"
+  },
+  "guideFeatures": {
+    "message": "Características"
+  },
+  "guideProTip": {
+    "message": "Consejo:"
+  },
+
+  "shortcutActivateScanner": {
+    "message": "Activar escáner"
+  },
+  "shortcutToggleGrid": {
+    "message": "Alternar cuadrícula"
+  },
+  "shortcutScanParent": {
+    "message": "Escanear padre"
+  },
+
+  "guideStep1": {
+    "message": "Presiona $SHORTCUT$ o haz clic en el icono de la extensión para activar",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep2": {
+    "message": "Pasa el cursor sobre cualquier elemento de la página para ver su CSS"
+  },
+  "guideStep3": {
+    "message": "Usa las pestañas: $CSS$, $HTML$, $SOURCE$, $EDITOR$",
+    "placeholders": {
+      "css": {
+        "content": "$1"
+      },
+      "html": {
+        "content": "$2"
+      },
+      "source": {
+        "content": "$3"
+      },
+      "editor": {
+        "content": "$4"
+      }
+    }
+  },
+  "guideStep4": {
+    "message": "Haz clic en $COPY$ para copiar el código al portapapeles",
+    "placeholders": {
+      "copy": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep5": {
+    "message": "Presiona $SPACE$ para congelar/descongelar, $ESC$ para cerrar",
+    "placeholders": {
+      "space": {
+        "content": "$1"
+      },
+      "esc": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "featureSyntaxHighlighting": {
+    "message": "Resaltado de sintaxis - CSS y HTML con código de colores"
+  },
+  "featureIncludeChildren": {
+    "message": "Incluir hijos - Extraer CSS completo del componente"
+  },
+  "featureLiveEditor": {
+    "message": "Editor en vivo - Editar y aplicar CSS en tiempo real"
+  },
+  "featureCodePenExport": {
+    "message": "Exportar a CodePen - Exportación de componentes con un clic"
+  },
+  "featureOptimizedCSS": {
+    "message": "CSS optimizado - Propiedades abreviadas y limpias"
+  },
+
+  "proTipMessage": {
+    "message": "¡Activa \"Incluir CSS de elementos hijos\" en la pestaña CSS para extraer componentes UI completos con todos los estilos anidados!"
+  },
+
+  "tabCSS": {
+    "message": "CSS"
+  },
+  "tabHTML": {
+    "message": "HTML"
+  },
+  "tabSource": {
+    "message": "Fuente"
+  },
+  "tabEditor": {
+    "message": "Editor"
+  },
+
+  "btnCopy": {
+    "message": "Copiar"
+  },
+  "btnCodePen": {
+    "message": "CodePen"
+  },
+  "btnPin": {
+    "message": "Fijar"
+  },
+  "btnUnpin": {
+    "message": "Desfijar"
+  },
+  "btnApply": {
+    "message": "Aplicar"
+  },
+  "btnReset": {
+    "message": "Restablecer"
+  },
+  "btnSettings": {
+    "message": "Configuración"
+  },
+  "btnGuide": {
+    "message": "Mostrar guía"
+  },
+  "btnClose": {
+    "message": "Cerrar"
+  },
+
+  "optionIncludeChildren": {
+    "message": "Incluir CSS de elementos hijos"
+  },
+  "optionCopyHTML": {
+    "message": "Copiar HTML junto con CSS"
+  },
+  "optionCopyOnClick": {
+    "message": "Copiar CSS al hacer clic"
+  },
+  "optionPinOnSpace": {
+    "message": "Fijar/Desfijar con Espacio"
+  },
+  "optionShowGrid": {
+    "message": "Mostrar cuadrícula"
+  },
+
+  "notificationActivated": {
+    "message": "¡Escáner CSS activado!"
+  },
+  "notificationDeactivated": {
+    "message": "Escáner CSS desactivado"
+  },
+  "notificationCopied": {
+    "message": "¡Copiado al portapapeles!"
+  },
+  "notificationPinned": {
+    "message": "Inspector fijado"
+  },
+  "notificationUnpinned": {
+    "message": "Inspector desfijado"
+  },
+  "notificationApplied": {
+    "message": "¡CSS aplicado!"
+  },
+
+  "settingsTitle": {
+    "message": "Configuración"
+  },
+  "settingsSave": {
+    "message": "Guardar"
+  }
+}
