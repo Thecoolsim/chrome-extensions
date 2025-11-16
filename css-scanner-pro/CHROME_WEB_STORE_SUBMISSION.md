@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Last updated: 2025-11-16
+Last updated: 2025-11-16
 
 CSS Scanner Pro respects your privacy. This extension is designed to inspect and display CSS and HTML directly in your browser without collecting, storing, or transmitting any personal data.
 
