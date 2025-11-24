@@ -47,7 +47,11 @@ Version: 1.0.0
 **Simon Adjatan**
 - Website: https://adjatan.org/
 - GitHub: https://github.com/Thecoolsim
+<<<<<<< HEAD
+- Twitter: https://x.com/adjatan
+=======
 - X: https://x.com/adjatan
+>>>>>>> 27cb9a1 (Save local changes before rebase)
 - Facebook: https://www.facebook.com/adjatan
 
 ## License
