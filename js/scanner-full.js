@@ -721,46 +721,45 @@
     });
     css += '}\n';
 
-    if (state.settings.includeChildren) {
-      const children = element.querySelectorAll('*');
-      const seenRules = new Map(); // Track unique selector + CSS combinations
+    // Always extract children when this function is called
+    const children = element.querySelectorAll('*');
+    const seenRules = new Map(); // Track unique selector + CSS combinations
 
-      // Limit to prevent browser freeze on large DOM trees
-      const MAX_CHILDREN = 200;
-      const childrenArray = Array.from(children).slice(0, MAX_CHILDREN);
+    // Limit to prevent browser freeze on large DOM trees
+    const MAX_CHILDREN = 200;
+    const childrenArray = Array.from(children).slice(0, MAX_CHILDREN);
 
-      // Add warning if we hit the limit
-      if (children.length > MAX_CHILDREN) {
-        css += `\n/* Warning: Only showing first ${MAX_CHILDREN} of ${children.length} child elements */\n`;
-      }
-
-      childrenArray.forEach(child => {
-        const childSelector = getElementSelector(child, state.settings.selectorMode);
-        const childProps = extractCSS(child, false);
-        const optimizedChildProps = optimizeCSSProperties(childProps);
-
-        // Only add if there are properties to show
-        if (optimizedChildProps.length > 0) {
-          // Create a unique key from selector + CSS properties
-          const cssString = optimizedChildProps
-            .map(({ prop, value }) => `${prop}:${value}`)
-            .sort()
-            .join(';');
-          const ruleKey = `${childSelector}::${cssString}`;
-
-          // Only add if we haven't seen this exact combination
-          if (!seenRules.has(ruleKey)) {
-            seenRules.set(ruleKey, true);
-
-            css += `\n${childSelector} {\n`;
-            optimizedChildProps.forEach(({ prop, value }) => {
-              css += `  ${prop}: ${value};\n`;
-            });
-            css += '}\n';
-          }
-        }
-      });
+    // Add warning if we hit the limit
+    if (children.length > MAX_CHILDREN) {
+      css += `\n/* Warning: Only showing first ${MAX_CHILDREN} of ${children.length} child elements */\n`;
     }
+
+    childrenArray.forEach(child => {
+      const childSelector = getElementSelector(child, state.settings.selectorMode);
+      const childProps = extractCSS(child, false);
+      const optimizedChildProps = optimizeCSSProperties(childProps);
+
+      // Only add if there are properties to show
+      if (optimizedChildProps.length > 0) {
+        // Create a unique key from selector + CSS properties
+        const cssString = optimizedChildProps
+          .map(({ prop, value }) => `${prop}:${value}`)
+          .sort()
+          .join(';');
+        const ruleKey = `${childSelector}::${cssString}`;
+
+        // Only add if we haven't seen this exact combination
+        if (!seenRules.has(ruleKey)) {
+          seenRules.set(ruleKey, true);
+
+          css += `\n${childSelector} {\n`;
+          optimizedChildProps.forEach(({ prop, value }) => {
+            css += `  ${prop}: ${value};\n`;
+          });
+          css += '}\n';
+        }
+      }
+    });
 
     return css;
   }
@@ -1158,6 +1157,10 @@
         updateCSSTab();
       }
     });
+
+    // Sync checkboxes with state
+    includeChildrenCSSCheckbox.checked = state.settings.includeChildren;
+    includeChildrenHTMLCheckbox.checked = state.settings.includeChildrenHTML;
 
     // Make draggable from header only
     let isDragging = false;
