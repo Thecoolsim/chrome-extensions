@@ -118,7 +118,7 @@ Version: VERSION_PLACEHOLDER
 **Simon Adjatan**
 - Website: https://adjatan.org/
 - GitHub: https://github.com/Thecoolsim
-- Twitter: https://x.com/adjatan
+- X: https://x.com/adjatan
 - Facebook: https://www.facebook.com/adjatan
 
 ## License

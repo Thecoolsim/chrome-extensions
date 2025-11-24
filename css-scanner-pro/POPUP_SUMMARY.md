@@ -68,7 +68,7 @@ A professional popup menu that appears when users click the extension icon, prov
    - Scanner activates on page
 5. **Test links** (optional)
    - Click GitHub → Opens in new tab
-   - Click Twitter → Opens in new tab
+   - Click X → Opens in new tab
    - Click Facebook → Opens in new tab
 
 ## 📊 Sections Breakdown
@@ -164,4 +164,4 @@ Scanner active on page
 
 **Created by Simon Adjatan**
 
-🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [Twitter](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
+🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [X](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)

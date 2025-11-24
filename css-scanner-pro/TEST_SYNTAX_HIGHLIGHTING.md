@@ -234,7 +234,7 @@ Try hovering over different test elements:
 
 Now test on actual websites:
 
-1. **Go to any website** (e.g., github.com, twitter.com, reddit.com)
+1. **Go to any website** (e.g., github.com, X.com, reddit.com)
 2. **Activate CSS Scanner** (`Ctrl+Shift+S` / `Cmd+Shift+S`)
 3. **Hover over elements** (buttons, cards, headers, etc.)
 
@@ -420,4 +420,4 @@ After confirming syntax highlighting works:
 
 **Created by Simon Adjatan**
 
-🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [Twitter](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
+🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [X](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)

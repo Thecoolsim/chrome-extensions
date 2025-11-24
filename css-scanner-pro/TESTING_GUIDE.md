@@ -255,7 +255,7 @@ Check if scanner impacts page performance:
 Test on different pages:
 
 - [ ] Simple HTML page (test.html) ✅ Should work
-- [ ] Complex website (Reddit, Twitter) ✅ Should work
+- [ ] Complex website (Reddit, X) ✅ Should work
 - [ ] Single-page app (Gmail, Figma) ✅ Should work
 - [ ] chrome:// pages ❌ Won't work (browser limitation)
 - [ ] PDF files ❌ Won't work

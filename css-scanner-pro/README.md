@@ -42,7 +42,7 @@
 ## 📦 Installation
 
 ### Chrome Web Store  
-Coming soon…
+(https://chromewebstore.google.com/detail/css-scanner-pro/liopagplapnlephgjfibgmkbghlocchk)
 
 ### Manual Installation
 
@@ -185,7 +185,7 @@ https://github.com/Thecoolsim/chrome-extensions/blob/main/css-scanner-pro/CHROME
 **Simon Adjatan**  
 🌐 https://adjatan.org/  
 🐙 GitHub: https://github.com/Thecoolsim  
-🐦 Twitter: https://x.com/adjatan  
+🐦 X: https://x.com/adjatan  
 📘 Facebook: https://facebook.com/adjatan  
 
 ---

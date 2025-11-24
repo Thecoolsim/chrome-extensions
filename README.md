@@ -30,7 +30,7 @@ The fastest and easiest way to inspect, copy and analyze CSS styles on any webpa
 **Simon Adjatan**
 - Website: https://adjatan.org/
 - GitHub: https://github.com/Thecoolsim
-- Twitter: https://x.com/adjatan
+- X: https://x.com/adjatan
 - Facebook: https://www.facebook.com/adjatan
 
 ## License

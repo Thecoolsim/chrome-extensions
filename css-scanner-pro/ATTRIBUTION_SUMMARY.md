@@ -20,7 +20,7 @@ Your information has been nicely integrated throughout the extension files and d
 Section: "Credits & Author"
 - Website link
 - GitHub profile
-- X/Twitter account
+- X/X account
 - Facebook page
 
 ### 3. JavaScript Files
@@ -34,7 +34,7 @@ Header comments with:
  * @author Adjatan
  * @website https://adjatan.org/
  * @github https://github.com/Thecoolsim
- * @twitter https://x.com/adjatan
+ * @X https://x.com/adjatan
  * @facebook https://www.facebook.com/adjatan
  * @license MIT
  */
@@ -80,7 +80,7 @@ Beautiful footer with:
 - Repository links throughout docs
 - For issues and contributions
 
-🐦 **X/Twitter**: [@adjatan](https://x.com/adjatan)
+🐦 **X/X**: [@adjatan](https://x.com/adjatan)
 - Social sharing and updates
 - Community engagement
 
@@ -149,7 +149,7 @@ Users can find you through:
 
 ```
 CSS Scanner Pro - Created by Simon Adjatan
-GitHub | Twitter | Facebook
+GitHub | X | Facebook
 ```
 
 Clean, professional, clickable!
@@ -161,10 +161,10 @@ Clean, professional, clickable!
 ### Next Steps (Optional)
 
 1. **Publish to GitHub** - Create repository at github.com/Thecoolsim
-2. **Share on Social** - Post about it on X/Twitter and Facebook
+2. **Share on Social** - Post about it on X/X and Facebook
 3. **Chrome Web Store** - Publish the extension
 4. **Website Feature** - Add to adjatan.org portfolio
 
 ---
 
-🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [Twitter](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
+🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [X](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)

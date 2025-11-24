@@ -60,5 +60,4 @@ If the privacy policy changes, the updated version will be published in this rep
 
 If you have any questions about this Privacy Policy, feel free to reach out:
 
-**Email:** coolsim@gmail.com  
-**GitHub Issues:** https://github.com/Thecoolsim/chrome-extensions/issues
+**Support:** https://github.com/Thecoolsim/chrome-extensions/issues

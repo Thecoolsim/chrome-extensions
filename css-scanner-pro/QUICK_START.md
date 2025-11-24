@@ -168,4 +168,4 @@ Extension works when:
 
 ## 👨‍💻 Created by Simon Adjatan
 
-🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [Twitter](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
+🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [X](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)

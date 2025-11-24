@@ -142,8 +142,8 @@ CSS Scanner Pro's code can be reviewed. We encourage developers to:
 
 If you have questions about this privacy policy:
 
-- **GitHub Issues:** https://github.com/Thecoolsim (for technical questions)
-- **Email:** Contact via GitHub profile at https://adjatan.org/
+- **Support:** https://github.com/Thecoolsim/chrome-extensions/issues
+- **Website:** https://adjatan.org/
 
 ## Legal Compliance
 

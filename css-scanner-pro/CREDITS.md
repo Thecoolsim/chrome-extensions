@@ -10,7 +10,7 @@ CSS Scanner Pro is created and maintained by Simon Adjatan, a developer passiona
 
 - 🌐 **Website**: [adjatan.org](https://adjatan.org/)
 - 💻 **GitHub**: [@Thecoolsim](https://github.com/Thecoolsim)
-- 🐦 **X (Twitter)**: [@adjatan](https://x.com/adjatan)
+- 🐦 **X (X)**: [@adjatan](https://x.com/adjatan)
 - 📘 **Facebook**: [adjatan](https://www.facebook.com/adjatan)
 
 ## Project Information
@@ -71,7 +71,7 @@ This project was inspired by the need for a fast, efficient, and free CSS inspec
 
 ### Spread the Word
 - ⭐ Star the repository on GitHub
-- 📢 Share on X/Twitter: [@adjatan](https://x.com/adjatan)
+- 📢 Share on X/X: [@adjatan](https://x.com/adjatan)
 - 👍 Like on Facebook: [adjatan](https://www.facebook.com/adjatan)
 
 ## Special Thanks
@@ -112,4 +112,4 @@ SOFTWARE.
 
 *Making web development faster, easier, and more enjoyable.*
 
-🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [Twitter](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
+🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [X](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)

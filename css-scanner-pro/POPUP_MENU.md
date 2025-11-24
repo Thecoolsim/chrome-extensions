@@ -40,7 +40,7 @@ Large blue button to instantly activate the scanner on the current page
 
 ### 7. **Footer**
 - Attribution to Simon Adjatan
-- Links to website, GitHub, Twitter, Facebook
+- Links to website, GitHub, X, Facebook
 
 ## Design Features
 
@@ -133,7 +133,7 @@ Sends message to background script to activate scanner, then closes popup.
    - Scanner activates on current page
 
 4. **User accesses links (optional)**
-   - Clicks GitHub, Twitter, or Facebook links
+   - Clicks GitHub, X, or Facebook links
    - Opens in new tab
    - Popup remains open for reference
 
@@ -222,7 +222,7 @@ On Windows/Linux:
 
 Repeat for:
 - Website: `https://adjatan.org/`
-- Twitter: `https://x.com/adjatan`
+- X: `https://x.com/adjatan`
 - Facebook: `https://www.facebook.com/adjatan`
 
 ### Step 7: Test Responsiveness
@@ -372,4 +372,4 @@ Potential improvements:
 
 **Created by Simon Adjatan**
 
-🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [Twitter](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
+🌐 [adjatan.org](https://adjatan.org/) | 💻 [GitHub](https://github.com/Thecoolsim) | 🐦 [X](https://x.com/adjatan) | 📘 [Facebook](https://www.facebook.com/adjatan)
