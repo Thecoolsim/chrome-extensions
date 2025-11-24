@@ -140,14 +140,7 @@
 
       // CSS selectors
       selectorMode: 'smart', // 'smart', 'original', 'none', 'truncated'
-<<<<<<< HEAD
-      maxBreadcrumbDepth: 5, // Maximum depth for breadcrumb navigation (0 = unlimited)
-
-      // Language
-      language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
-=======
       maxBreadcrumbDepth: 4, // Maximum depth for breadcrumb navigation (0 = unlimited)
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
       // Language
       language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
@@ -292,6 +285,43 @@
         processRules(Array.from(rule.cssRules), element, matchedRules);
       }
     }
+  }
+
+  /**
+   * Extract significant computed styles from an element
+   * Used as fallback when no CSS rules match
+   */
+  function extractComputedStyles(element) {
+    const computed = window.getComputedStyle(element);
+    const cssProperties = [];
+
+    // List of commonly useful properties to extract
+    const significantProps = [
+      'display', 'position', 'top', 'right', 'bottom', 'left',
+      'width', 'height', 'max-width', 'max-height', 'min-width', 'min-height',
+      'margin', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left',
+      'padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left',
+      'border', 'border-width', 'border-style', 'border-color', 'border-radius',
+      'background', 'background-color', 'background-image',
+      'color', 'font-family', 'font-size', 'font-weight', 'font-style',
+      'text-align', 'text-decoration', 'text-transform', 'line-height',
+      'letter-spacing', 'word-spacing',
+      'opacity', 'visibility', 'overflow', 'overflow-x', 'overflow-y',
+      'z-index', 'cursor', 'pointer-events',
+      'flex', 'flex-direction', 'flex-wrap', 'justify-content', 'align-items',
+      'grid-template-columns', 'grid-template-rows', 'gap',
+      'transform', 'transition', 'animation',
+      'box-shadow', 'text-shadow'
+    ];
+
+    significantProps.forEach(prop => {
+      const value = computed.getPropertyValue(prop);
+      if (value) {
+        cssProperties.push({ prop, value });
+      }
+    });
+
+    return cssProperties;
   }
 
   /**
@@ -728,46 +758,53 @@
     });
     css += '}\n';
 
-    if (state.settings.includeChildren) {
-      const children = element.querySelectorAll('*');
-      const seenRules = new Map(); // Track unique selector + CSS combinations
+    // Always extract children when this function is called
+    const children = element.querySelectorAll('*');
+    const seenRules = new Map(); // Track unique selector + CSS combinations
 
-      // Limit to prevent browser freeze on large DOM trees
-      const MAX_CHILDREN = 200;
-      const childrenArray = Array.from(children).slice(0, MAX_CHILDREN);
+    // Limit to prevent browser freeze on large DOM trees
+    const MAX_CHILDREN = 200;
+    const childrenArray = Array.from(children).slice(0, MAX_CHILDREN);
 
-      // Add warning if we hit the limit
-      if (children.length > MAX_CHILDREN) {
-        css += `\n/* Warning: Only showing first ${MAX_CHILDREN} of ${children.length} child elements */\n`;
+    // Add warning if we hit the limit
+    if (children.length > MAX_CHILDREN) {
+      css += `\n/* Warning: Only showing first ${MAX_CHILDREN} of ${children.length} child elements */\n`;
+    }
+
+    childrenArray.forEach(child => {
+      const childSelector = getElementSelector(child, state.settings.selectorMode);
+
+      // Try extractCSS first (gets styles from CSS rules)
+      let childProps = extractCSS(child, false);
+
+      // If no CSS rules match, extract significant computed styles
+      if (childProps.length === 0) {
+        childProps = extractComputedStyles(child);
       }
 
-      childrenArray.forEach(child => {
-        const childSelector = getElementSelector(child, state.settings.selectorMode);
-        const childProps = extractCSS(child, false);
-        const optimizedChildProps = optimizeCSSProperties(childProps);
+      const optimizedChildProps = optimizeCSSProperties(childProps);
 
-        // Only add if there are properties to show
-        if (optimizedChildProps.length > 0) {
-          // Create a unique key from selector + CSS properties
-          const cssString = optimizedChildProps
-            .map(({ prop, value }) => `${prop}:${value}`)
-            .sort()
-            .join(';');
-          const ruleKey = `${childSelector}::${cssString}`;
+      // Only add if there are properties to show
+      if (optimizedChildProps.length > 0) {
+        // Create a unique key from selector + CSS properties
+        const cssString = optimizedChildProps
+          .map(({ prop, value }) => `${prop}:${value}`)
+          .sort()
+          .join(';');
+        const ruleKey = `${childSelector}::${cssString}`;
 
-          // Only add if we haven't seen this exact combination
-          if (!seenRules.has(ruleKey)) {
-            seenRules.set(ruleKey, true);
+        // Only add if we haven't seen this exact combination
+        if (!seenRules.has(ruleKey)) {
+          seenRules.set(ruleKey, true);
 
-            css += `\n${childSelector} {\n`;
-            optimizedChildProps.forEach(({ prop, value }) => {
-              css += `  ${prop}: ${value};\n`;
-            });
-            css += '}\n';
-          }
+          css += `\n${childSelector} {\n`;
+          optimizedChildProps.forEach(({ prop, value }) => {
+            css += `  ${prop}: ${value};\n`;
+          });
+          css += '}\n';
         }
-      });
-    }
+      }
+    });
 
     return css;
   }
@@ -1871,34 +1908,40 @@
   }
 
   async function loadSettings() {
-    if (typeof chrome !== 'undefined' && chrome.storage) {
-      chrome.storage.sync.get(['cssScanner'], async (result) => {
-        if (result.cssScanner) {
-          Object.assign(state.settings, result.cssScanner);
+    return new Promise((resolve) => {
+      if (typeof chrome !== 'undefined' && chrome.storage) {
+        chrome.storage.sync.get(['cssScanner'], async (result) => {
+          if (result.cssScanner) {
+            Object.assign(state.settings, result.cssScanner);
 
-          // Apply language setting
-          if (state.settings.language && state.settings.language !== 'auto') {
-            currentLanguage = state.settings.language;
-            await loadTranslations(currentLanguage);
+            // Apply language setting
+            if (state.settings.language && state.settings.language !== 'auto') {
+              currentLanguage = state.settings.language;
+              await loadTranslations(currentLanguage);
+            }
           }
-        }
-      });
-    } else {
-      const saved = localStorage.getItem('cssScanner');
-      if (saved) {
-        try {
-          Object.assign(state.settings, JSON.parse(saved));
+          resolve();
+        });
+      } else {
+        (async () => {
+          const saved = localStorage.getItem('cssScanner');
+          if (saved) {
+            try {
+              Object.assign(state.settings, JSON.parse(saved));
 
-          // Apply language setting
-          if (state.settings.language && state.settings.language !== 'auto') {
-            currentLanguage = state.settings.language;
-            await loadTranslations(currentLanguage);
+              // Apply language setting
+              if (state.settings.language && state.settings.language !== 'auto') {
+                currentLanguage = state.settings.language;
+                await loadTranslations(currentLanguage);
+              }
+            } catch(e) {
+              console.error('Failed to load settings:', e);
+            }
           }
-        } catch(e) {
-          console.error('Failed to load settings:', e);
-        }
+          resolve();
+        })();
       }
-    }
+    });
   }
 
   // ========================================
@@ -2197,10 +2240,7 @@
     const maxDepth = state.settings.maxBreadcrumbDepth || 0;
     const isTruncated = maxDepth > 0 && path.length > maxDepth;
     const displayPath = isTruncated ? path.slice(-maxDepth) : path;
-<<<<<<< HEAD
-=======
     const displayFullPath = isTruncated ? fullPath.slice(-maxDepth) : fullPath;
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
     // Build breadcrumb HTML with ellipsis indicator if truncated
     let breadcrumbHTML = '';
@@ -2208,19 +2248,11 @@
       breadcrumbHTML = `<span class="breadcrumb-ellipsis" title="Path truncated - showing last ${maxDepth} of ${path.length} levels">...</span> › `;
     }
 
-<<<<<<< HEAD
-    breadcrumbHTML += displayPath.map((item, index) =>
-      `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}">${item}</span>`
-    ).join(' › ');
-=======
     breadcrumbHTML += displayPath.map((item, index) => {
       const fullItem = displayFullPath[index];
       const title = fullItem !== item ? fullItem : '';
       return `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}" ${title ? `title="${title}"` : ''}>${item}</span>`;
     }).join(' › ');
-
-    breadcrumb.innerHTML = breadcrumbHTML;
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
     breadcrumb.innerHTML = breadcrumbHTML;
 
@@ -2230,11 +2262,7 @@
         e.stopPropagation();
         const dataIndex = parseInt(item.getAttribute('data-index'));
         let target = element;
-<<<<<<< HEAD
-        const steps = path.length - 1 - dataIndex;
-=======
         const steps = fullPath.length - 1 - dataIndex;
->>>>>>> 27cb9a1 (Save local changes before rebase)
         for (let i = 0; i < steps; i++) {
           target = target.parentElement;
         }
@@ -2363,15 +2391,27 @@
   // ACTIVATION / DEACTIVATION
   // ========================================
 
-  function activateScanner() {
+  async function activateScanner() {
     if (state.active) return;
 
     state.active = true;
-    loadSettings();
+
+    // Load settings first
+    await loadSettings();
 
     // Create UI elements
     state.overlay = createOverlay();
     state.inspectorBlock = createInspectorBlock();
+
+    // Sync checkbox states after settings are loaded
+    const includeChildrenCSSCheckbox = state.inspectorBlock.querySelector('#include-children-css');
+    const includeChildrenHTMLCheckbox = state.inspectorBlock.querySelector('#include-children-html');
+    if (includeChildrenCSSCheckbox) {
+      includeChildrenCSSCheckbox.checked = state.settings.includeChildren;
+    }
+    if (includeChildrenHTMLCheckbox) {
+      includeChildrenHTMLCheckbox.checked = state.settings.includeChildrenHTML;
+    }
 
     // Add event listeners
     document.addEventListener('mousemove', handleMouseMove, true);
