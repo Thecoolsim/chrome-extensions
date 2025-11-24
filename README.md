@@ -6,7 +6,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/Thecoolsim/chrome-extensions/tree/main/css-scanner-pro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/Thecoolsim/chrome-extensions/main/css-scanner-pro/LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://raw.githubusercontent.com/Thecoolsim/chrome-extensions/main/css-scanner-pro/manifest.json)
+[![Version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://raw.githubusercontent.com/Thecoolsim/chrome-extensions/main/css-scanner-pro/manifest.json)
 
 ---
 

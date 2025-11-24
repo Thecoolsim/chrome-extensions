@@ -140,14 +140,7 @@
 
       // CSS selectors
       selectorMode: 'smart', // 'smart', 'original', 'none', 'truncated'
-<<<<<<< HEAD
-      maxBreadcrumbDepth: 5, // Maximum depth for breadcrumb navigation (0 = unlimited)
-
-      // Language
-      language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
-=======
       maxBreadcrumbDepth: 4, // Maximum depth for breadcrumb navigation (0 = unlimited)
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
       // Language
       language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
@@ -2197,10 +2190,7 @@
     const maxDepth = state.settings.maxBreadcrumbDepth || 0;
     const isTruncated = maxDepth > 0 && path.length > maxDepth;
     const displayPath = isTruncated ? path.slice(-maxDepth) : path;
-<<<<<<< HEAD
-=======
     const displayFullPath = isTruncated ? fullPath.slice(-maxDepth) : fullPath;
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
     // Build breadcrumb HTML with ellipsis indicator if truncated
     let breadcrumbHTML = '';
@@ -2208,19 +2198,11 @@
       breadcrumbHTML = `<span class="breadcrumb-ellipsis" title="Path truncated - showing last ${maxDepth} of ${path.length} levels">...</span> › `;
     }
 
-<<<<<<< HEAD
-    breadcrumbHTML += displayPath.map((item, index) =>
-      `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}">${item}</span>`
-    ).join(' › ');
-=======
     breadcrumbHTML += displayPath.map((item, index) => {
       const fullItem = displayFullPath[index];
       const title = fullItem !== item ? fullItem : '';
       return `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}" ${title ? `title="${title}"` : ''}>${item}</span>`;
     }).join(' › ');
-
-    breadcrumb.innerHTML = breadcrumbHTML;
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
     breadcrumb.innerHTML = breadcrumbHTML;
 
@@ -2230,11 +2212,7 @@
         e.stopPropagation();
         const dataIndex = parseInt(item.getAttribute('data-index'));
         let target = element;
-<<<<<<< HEAD
-        const steps = path.length - 1 - dataIndex;
-=======
         const steps = fullPath.length - 1 - dataIndex;
->>>>>>> 27cb9a1 (Save local changes before rebase)
         for (let i = 0; i < steps; i++) {
           target = target.parentElement;
         }
