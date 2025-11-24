@@ -5,7 +5,7 @@
  * @author Simon Adjatan
  * @website https://adjatan.org/
  * @github https://github.com/Thecoolsim
- * @twitter https://x.com/adjatan
+ * @X https://x.com/adjatan
  * @facebook https://www.facebook.com/adjatan
  * @license MIT
  */
@@ -140,10 +140,14 @@
 
       // CSS selectors
       selectorMode: 'smart', // 'smart', 'original', 'none', 'truncated'
+<<<<<<< HEAD
       maxBreadcrumbDepth: 5, // Maximum depth for breadcrumb navigation (0 = unlimited)
 
       // Language
       language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
+=======
+      maxBreadcrumbDepth: 4, // Maximum depth for breadcrumb navigation (0 = unlimited)
+>>>>>>> 27cb9a1 (Save local changes before rebase)
 
       // Language
       language: 'auto', // 'auto', 'en', 'fr', 'es', 'de'
@@ -2163,13 +2167,29 @@
   function updateBreadcrumb(element) {
     const breadcrumb = state.inspectorBlock.querySelector('.inspector-breadcrumb');
     const path = [];
+    const fullPath = [];
     let current = element;
+
+    // Helper function to truncate long class names
+    function truncateClassName(className, maxLength = 15) {
+      if (className.length <= maxLength) return className;
+      return className.substring(0, maxLength) + '...';
+    }
 
     while (current && current !== document.body) {
       const tag = current.tagName.toLowerCase();
       const id = current.id ? `#${current.id}` : '';
       const cls = current.classList.length > 0 ? `.${current.classList[0]}` : '';
-      path.unshift(`${tag}${id}${cls}`);
+
+      // Store full selector for tooltip
+      const fullSelector = `${tag}${id}${cls}`;
+      fullPath.unshift(fullSelector);
+
+      // Create display version with truncated class name
+      const truncatedCls = current.classList.length > 0 ? `.${truncateClassName(current.classList[0])}` : '';
+      const displaySelector = `${tag}${id}${truncatedCls}`;
+      path.unshift(displaySelector);
+
       current = current.parentElement;
     }
 
@@ -2177,6 +2197,10 @@
     const maxDepth = state.settings.maxBreadcrumbDepth || 0;
     const isTruncated = maxDepth > 0 && path.length > maxDepth;
     const displayPath = isTruncated ? path.slice(-maxDepth) : path;
+<<<<<<< HEAD
+=======
+    const displayFullPath = isTruncated ? fullPath.slice(-maxDepth) : fullPath;
+>>>>>>> 27cb9a1 (Save local changes before rebase)
 
     // Build breadcrumb HTML with ellipsis indicator if truncated
     let breadcrumbHTML = '';
@@ -2184,9 +2208,19 @@
       breadcrumbHTML = `<span class="breadcrumb-ellipsis" title="Path truncated - showing last ${maxDepth} of ${path.length} levels">...</span> › `;
     }
 
+<<<<<<< HEAD
     breadcrumbHTML += displayPath.map((item, index) =>
       `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}">${item}</span>`
     ).join(' › ');
+=======
+    breadcrumbHTML += displayPath.map((item, index) => {
+      const fullItem = displayFullPath[index];
+      const title = fullItem !== item ? fullItem : '';
+      return `<span class="breadcrumb-item" data-index="${isTruncated ? index + (path.length - maxDepth) : index}" ${title ? `title="${title}"` : ''}>${item}</span>`;
+    }).join(' › ');
+
+    breadcrumb.innerHTML = breadcrumbHTML;
+>>>>>>> 27cb9a1 (Save local changes before rebase)
 
     breadcrumb.innerHTML = breadcrumbHTML;
 
@@ -2196,7 +2230,11 @@
         e.stopPropagation();
         const dataIndex = parseInt(item.getAttribute('data-index'));
         let target = element;
+<<<<<<< HEAD
         const steps = path.length - 1 - dataIndex;
+=======
+        const steps = fullPath.length - 1 - dataIndex;
+>>>>>>> 27cb9a1 (Save local changes before rebase)
         for (let i = 0; i < steps; i++) {
           target = target.parentElement;
         }
@@ -2482,7 +2520,28 @@
         font-size: 11px !important;
         color: #9ca3af !important;
         overflow-x: auto !important;
+        overflow-y: hidden !important;
         white-space: nowrap !important;
+        max-height: 32px !important;
+        scrollbar-width: thin !important;
+        scrollbar-color: #4b5563 #111827 !important;
+      }
+
+      .inspector-breadcrumb::-webkit-scrollbar {
+        height: 4px !important;
+      }
+
+      .inspector-breadcrumb::-webkit-scrollbar-track {
+        background: #111827 !important;
+      }
+
+      .inspector-breadcrumb::-webkit-scrollbar-thumb {
+        background: #4b5563 !important;
+        border-radius: 2px !important;
+      }
+
+      .inspector-breadcrumb::-webkit-scrollbar-thumb:hover {
+        background: #6b7280 !important;
       }
 
       .breadcrumb-item {
@@ -2503,7 +2562,7 @@
 
       .inspector-tabs {
         background: #111827 !important;
-        display: flex !important;
+        display: block !important;
         border-bottom: 1px solid #374151 !important;
         padding: 0 16px !important;
       }
@@ -2517,6 +2576,11 @@
         font-size: 13px !important;
         border-bottom: 2px solid transparent !important;
         margin-bottom: -1px !important;
+        margin-right: 0 !important;
+        white-space: nowrap !important;
+        display: inline-block !important;
+        vertical-align: bottom !important;
+        float: none !important;
       }
 
       .tab-btn:hover {
