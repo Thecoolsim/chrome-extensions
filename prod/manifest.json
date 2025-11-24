@@ -1,19 +1,11 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-<<<<<<< HEAD
-  "version": "1.0.0",
-  "description": "__MSG_extDescription__",
-  "default_locale": "en",
-  "author": "Simon Adjatan (https://adjatan.org/)",
-  "homepage_url": "https://github.com/Thecoolsim",
-=======
   "version": "1.0.1",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "author": "Simon Adjatan (https://adjatan.org/)",
   "homepage_url": "https://github.com/Thecoolsim/chrome-extensions",
->>>>>>> 27cb9a1 (Save local changes before rebase)
 
   "icons": {
     "16": "img/icon16.png",
