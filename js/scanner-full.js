@@ -288,6 +288,43 @@
   }
 
   /**
+   * Extract significant computed styles from an element
+   * Used as fallback when no CSS rules match
+   */
+  function extractComputedStyles(element) {
+    const computed = window.getComputedStyle(element);
+    const cssProperties = [];
+
+    // List of commonly useful properties to extract
+    const significantProps = [
+      'display', 'position', 'top', 'right', 'bottom', 'left',
+      'width', 'height', 'max-width', 'max-height', 'min-width', 'min-height',
+      'margin', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left',
+      'padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left',
+      'border', 'border-width', 'border-style', 'border-color', 'border-radius',
+      'background', 'background-color', 'background-image',
+      'color', 'font-family', 'font-size', 'font-weight', 'font-style',
+      'text-align', 'text-decoration', 'text-transform', 'line-height',
+      'letter-spacing', 'word-spacing',
+      'opacity', 'visibility', 'overflow', 'overflow-x', 'overflow-y',
+      'z-index', 'cursor', 'pointer-events',
+      'flex', 'flex-direction', 'flex-wrap', 'justify-content', 'align-items',
+      'grid-template-columns', 'grid-template-rows', 'gap',
+      'transform', 'transition', 'animation',
+      'box-shadow', 'text-shadow'
+    ];
+
+    significantProps.forEach(prop => {
+      const value = computed.getPropertyValue(prop);
+      if (value) {
+        cssProperties.push({ prop, value });
+      }
+    });
+
+    return cssProperties;
+  }
+
+  /**
    * Check if a CSS value is likely a browser default
    */
   function isDefaultValue(prop, value) {
@@ -736,7 +773,15 @@
 
     childrenArray.forEach(child => {
       const childSelector = getElementSelector(child, state.settings.selectorMode);
-      const childProps = extractCSS(child, false);
+
+      // Try extractCSS first (gets styles from CSS rules)
+      let childProps = extractCSS(child, false);
+
+      // If no CSS rules match, extract significant computed styles
+      if (childProps.length === 0) {
+        childProps = extractComputedStyles(child);
+      }
+
       const optimizedChildProps = optimizeCSSProperties(childProps);
 
       // Only add if there are properties to show
