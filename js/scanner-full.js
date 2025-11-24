@@ -1158,10 +1158,6 @@
       }
     });
 
-    // Sync checkboxes with state
-    includeChildrenCSSCheckbox.checked = state.settings.includeChildren;
-    includeChildrenHTMLCheckbox.checked = state.settings.includeChildrenHTML;
-
     // Make draggable from header only
     let isDragging = false;
     let currentX = 0;
@@ -1867,34 +1863,40 @@
   }
 
   async function loadSettings() {
-    if (typeof chrome !== 'undefined' && chrome.storage) {
-      chrome.storage.sync.get(['cssScanner'], async (result) => {
-        if (result.cssScanner) {
-          Object.assign(state.settings, result.cssScanner);
+    return new Promise((resolve) => {
+      if (typeof chrome !== 'undefined' && chrome.storage) {
+        chrome.storage.sync.get(['cssScanner'], async (result) => {
+          if (result.cssScanner) {
+            Object.assign(state.settings, result.cssScanner);
 
-          // Apply language setting
-          if (state.settings.language && state.settings.language !== 'auto') {
-            currentLanguage = state.settings.language;
-            await loadTranslations(currentLanguage);
+            // Apply language setting
+            if (state.settings.language && state.settings.language !== 'auto') {
+              currentLanguage = state.settings.language;
+              await loadTranslations(currentLanguage);
+            }
           }
-        }
-      });
-    } else {
-      const saved = localStorage.getItem('cssScanner');
-      if (saved) {
-        try {
-          Object.assign(state.settings, JSON.parse(saved));
+          resolve();
+        });
+      } else {
+        (async () => {
+          const saved = localStorage.getItem('cssScanner');
+          if (saved) {
+            try {
+              Object.assign(state.settings, JSON.parse(saved));
 
-          // Apply language setting
-          if (state.settings.language && state.settings.language !== 'auto') {
-            currentLanguage = state.settings.language;
-            await loadTranslations(currentLanguage);
+              // Apply language setting
+              if (state.settings.language && state.settings.language !== 'auto') {
+                currentLanguage = state.settings.language;
+                await loadTranslations(currentLanguage);
+              }
+            } catch(e) {
+              console.error('Failed to load settings:', e);
+            }
           }
-        } catch(e) {
-          console.error('Failed to load settings:', e);
-        }
+          resolve();
+        })();
       }
-    }
+    });
   }
 
   // ========================================
@@ -2344,15 +2346,27 @@
   // ACTIVATION / DEACTIVATION
   // ========================================
 
-  function activateScanner() {
+  async function activateScanner() {
     if (state.active) return;
 
     state.active = true;
-    loadSettings();
+
+    // Load settings first
+    await loadSettings();
 
     // Create UI elements
     state.overlay = createOverlay();
     state.inspectorBlock = createInspectorBlock();
+
+    // Sync checkbox states after settings are loaded
+    const includeChildrenCSSCheckbox = state.inspectorBlock.querySelector('#include-children-css');
+    const includeChildrenHTMLCheckbox = state.inspectorBlock.querySelector('#include-children-html');
+    if (includeChildrenCSSCheckbox) {
+      includeChildrenCSSCheckbox.checked = state.settings.includeChildren;
+    }
+    if (includeChildrenHTMLCheckbox) {
+      includeChildrenHTMLCheckbox.checked = state.settings.includeChildrenHTML;
+    }
 
     // Add event listeners
     document.addEventListener('mousemove', handleMouseMove, true);
