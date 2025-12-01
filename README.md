@@ -17,7 +17,7 @@ The fastest and easiest way to inspect, copy and analyze CSS styles on any webpa
 - Multi-language support (EN, FR, ES, DE)
 - Keyboard shortcuts
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 **License:** MIT
 **Author:** Simon Adjatan
 
