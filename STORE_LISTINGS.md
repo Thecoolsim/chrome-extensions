@@ -16,72 +16,72 @@ The fastest and easiest way to inspect, copy and analyze CSS styles on any webpa
 
 Inspect, copy, and analyze CSS styles on any webpage instantly with CSS Scanner Pro — the ultimate tool for web developers and designers.
 
-**KEY FEATURES**
+KEY FEATURES
 
-**Instant CSS Inspection**
+Instant CSS Inspection
 Hover over any element to see its complete CSS styles with beautiful syntax highlighting.
 
-**One-Click Copy**
+One-Click Copy
 Copy CSS, HTML, or both to your clipboard instantly. No manual selection needed.
 
-**Syntax Highlighting**
+Syntax Highlighting
 Clear, color-coded output makes reading CSS a breeze. Professional code presentation.
 
-**Include Children CSS**
+Include Children CSS
 Extract nested component CSS with one click. Get complete UI components with all their styles.
 
-**Live CSS Editor**
+Live CSS Editor
 Edit and apply styles in real-time. See changes instantly without leaving the page.
 
-**CodePen & JSFiddle Export**
+CodePen & JSFiddle Export
 Export any component to CodePen or JSFiddle with one click. Perfect for sharing and prototyping.
 
-**SCSS Export**
+SCSS Export
 Convert CSS to nested SCSS with auto-generated variables. Copy to clipboard in one click.
 
-**CSS Variable Inspection**
+CSS Variable Inspection
 See custom properties defined on elements and their resolved values. Track variable inheritance.
 
-**Specificity Calculator**
+Specificity Calculator
 View selector specificity weights in the Source tab. Understand which rules take priority.
 
-**Animation & Transition Inspector**
+Animation & Transition Inspector
 View transitions, animations, and @keyframes rules applied to any element.
 
-**Box Model Visualization**
+Box Model Visualization
 See margin, border, padding, and content dimensions in a visual diagram.
 
-**Color Palette Extraction**
+Color Palette Extraction
 Detect all colors used on an element. Click any swatch to copy the color value.
 
-**Light & Dark Theme**
+Light & Dark Theme
 Switch the inspector between dark and light themes to match your preference.
 
-**Optimized Output**
+Optimized Output
 Clean, compressed CSS with shorthand properties. No bloat, just what you need.
 
-**Grid Overlay**
+Grid Overlay
 Toggle a visual grid overlay to inspect layouts and alignment.
 
-**Pin Inspector Mode**
+Pin Inspector Mode
 Freeze the inspector to examine elements without moving your mouse.
 
-**Parent Element Scanner**
+Parent Element Scanner
 Navigate up the DOM tree to inspect parent elements easily.
 
-**Responsive Breakpoint Indicator**
+Responsive Breakpoint Indicator
 See the current viewport breakpoint (xs/sm/md/lg/xl/xxl) in the inspector header. Media query badges in the Source tab show which @media rules are active or inactive.
 
-**Enhanced Keyboard Navigation**
+Enhanced Keyboard Navigation
 Switch tabs with number keys (1-4), navigate siblings with Left/Right arrows, quick copy with Ctrl+C, and cycle through CSS sections with Tab/Shift+Tab.
 
-**Performance Optimized**
+Performance Optimized
 Smooth inspection powered by requestAnimationFrame throttling, stylesheet caching, lazy tab updates, and computed style caching.
 
-**Multi-language Support**
+Multi-language Support
 Available in English, French, Spanish, German, Portuguese, and Japanese.
 
-**KEYBOARD SHORTCUTS**
+KEYBOARD SHORTCUTS
 
 - Activate Scanner: Ctrl+Shift+S (Windows/Linux) or Cmd+Shift+S (Mac)
 - Toggle Grid Overlay: Ctrl+Shift+G (Windows/Linux) or Cmd+Shift+G (Mac)
@@ -93,7 +93,7 @@ Available in English, French, Spanish, German, Portuguese, and Japanese.
 - Freeze/Unfreeze: Space
 - Close Scanner: Esc
 
-**PERFECT FOR**
+PERFECT FOR
 
 - Web Developers inspecting CSS
 - Designers analyzing styles
@@ -101,7 +101,7 @@ Available in English, French, Spanish, German, Portuguese, and Japanese.
 - Anyone debugging layout issues
 - Developers copying component styles
 
-**PRIVACY FIRST**
+PRIVACY FIRST
 
 - No data collection
 - No external servers
@@ -109,7 +109,7 @@ Available in English, French, Spanish, German, Portuguese, and Japanese.
 - Works completely offline
 - All processing happens locally in your browser
 
-**HOW TO USE**
+HOW TO USE
 
 1. Click the extension icon or press Ctrl+Shift+S / Cmd+Shift+S
 2. Hover over any element on the page
@@ -118,14 +118,14 @@ Available in English, French, Spanish, German, Portuguese, and Japanese.
 5. Use the Editor tab for live changes
 6. Export to CodePen or JSFiddle if needed
 
-**FOUR POWERFUL TABS**
+FOUR POWERFUL TABS
 
 - CSS Tab: View all computed CSS properties, variables, animations, box model, and colors
 - HTML Tab: See the element's HTML structure
 - Source Tab: View original stylesheet rules with specificity badges
 - Editor Tab: Edit and apply CSS in real-time
 
-**CUSTOMIZABLE SETTINGS**
+CUSTOMIZABLE SETTINGS
 
 - Choose selector mode (smart, original, none)
 - Include/exclude child elements
@@ -151,73 +151,73 @@ Le moyen le plus rapide et facile d'inspecter, copier et analyser les styles CSS
 
 Inspectez, copiez et analysez instantanement les styles CSS sur n'importe quelle page web avec CSS Scanner Pro — l'outil ultime pour les developpeurs et designers web.
 
-**FONCTIONNALITES PRINCIPALES**
+FONCTIONNALITES PRINCIPALES
 
-**Inspection CSS Instantanee**
+Inspection CSS Instantanee
 Survolez n'importe quel element pour voir ses styles CSS complets avec une belle coloration syntaxique.
 
-**Copie en Un Clic**
+Copie en Un Clic
 Copiez le CSS, le HTML ou les deux dans votre presse-papiers instantanement. Aucune selection manuelle necessaire.
 
-**Coloration Syntaxique**
+Coloration Syntaxique
 Une sortie claire et codee par couleur rend la lecture du CSS un jeu d'enfant. Presentation professionnelle du code.
 
-**Inclure le CSS des Enfants**
+Inclure le CSS des Enfants
 Extrayez le CSS des composants imbriques en un clic. Obtenez des composants UI complets avec tous leurs styles.
 
-**Editeur CSS en Direct**
+Editeur CSS en Direct
 Modifiez et appliquez les styles en temps reel. Voyez les changements instantanement sans quitter la page.
 
-**Export CodePen & JSFiddle**
+Export CodePen & JSFiddle
 Exportez n'importe quel composant vers CodePen ou JSFiddle en un clic. Parfait pour partager et prototyper.
 
-**Export SCSS**
+Export SCSS
 Convertissez le CSS en SCSS imbrique avec des variables auto-generees. Copiez dans le presse-papiers en un clic.
 
-**Inspection des Variables CSS**
+Inspection des Variables CSS
 Visualisez les proprietes personnalisees definies sur les elements et leurs valeurs resolues. Suivez l'heritage des variables.
 
-**Calculateur de Specificite**
+Calculateur de Specificite
 Affichez les poids de specificite des selecteurs dans l'onglet Source. Comprenez quelles regles sont prioritaires.
 
-**Inspecteur d'Animations et Transitions**
+Inspecteur d'Animations et Transitions
 Visualisez les transitions, animations et regles @keyframes appliquees a n'importe quel element.
 
-**Visualisation du Modele de Boite**
+Visualisation du Modele de Boite
 Visualisez les dimensions des marges, bordures, remplissage et contenu dans un diagramme visuel.
 
-**Extraction de Palette de Couleurs**
+Extraction de Palette de Couleurs
 Detectez toutes les couleurs utilisees sur un element. Cliquez sur une pastille pour copier la valeur de la couleur.
 
-**Theme Clair & Sombre**
+Theme Clair & Sombre
 Basculez l'inspecteur entre les themes sombre et clair selon votre preference.
 
-**Sortie Optimisee**
+Sortie Optimisee
 CSS propre et compresse avec proprietes raccourcies. Pas de superflu, juste ce dont vous avez besoin.
 
-**Superposition de Grille**
+Superposition de Grille
 Activez une grille visuelle pour inspecter les mises en page et l'alignement.
 
-**Mode Inspecteur Epingle**
+Mode Inspecteur Epingle
 Gelez l'inspecteur pour examiner les elements sans bouger votre souris.
 
-**Scanner d'Element Parent**
+Scanner d'Element Parent
 Naviguez dans l'arbre DOM pour inspecter facilement les elements parents.
 
-**Support Multilingue**
+Support Multilingue
 
-**Indicateur de point de rupture responsive**
+Indicateur de point de rupture responsive
 Voir le point de rupture actuel (xs/sm/md/lg/xl/xxl) dans l'en-tete de l'inspecteur. Les badges media query dans l'onglet Source montrent quelles regles @media sont actives ou inactives.
 
-**Navigation clavier amelioree**
+Navigation clavier amelioree
 Changez d'onglet avec les touches 1-4, naviguez entre les freres avec Gauche/Droite, copie rapide avec Ctrl+C, parcourez les sections CSS avec Tab/Shift+Tab.
 
-**Performances optimisees**
+Performances optimisees
 Inspection fluide avec limitation requestAnimationFrame, cache de feuilles de style, mises a jour paresseuses des onglets et cache de styles calcules.
 
 Disponible en anglais, francais, espagnol, allemand, portugais et japonais.
 
-**RACCOURCIS CLAVIER**
+RACCOURCIS CLAVIER
 
 - Activer le Scanner : Ctrl+Shift+S (Windows/Linux) ou Cmd+Shift+S (Mac)
 - Activer/Desactiver la Grille : Ctrl+Shift+G (Windows/Linux) ou Cmd+Shift+G (Mac)
@@ -229,7 +229,7 @@ Disponible en anglais, francais, espagnol, allemand, portugais et japonais.
 - Geler/Degeler : Espace
 - Fermer le Scanner : Echap
 
-**PARFAIT POUR**
+PARFAIT POUR
 
 - Les developpeurs web inspectant le CSS
 - Les designers analysant les styles
@@ -237,7 +237,7 @@ Disponible en anglais, francais, espagnol, allemand, portugais et japonais.
 - Toute personne deboguant des problemes de mise en page
 - Les developpeurs copiant les styles de composants
 
-**CONFIDENTIALITE D'ABORD**
+CONFIDENTIALITE D'ABORD
 
 - Aucune collecte de donnees
 - Aucun serveur externe
@@ -245,7 +245,7 @@ Disponible en anglais, francais, espagnol, allemand, portugais et japonais.
 - Fonctionne completement hors ligne
 - Tout le traitement se fait localement dans votre navigateur
 
-**COMMENT UTILISER**
+COMMENT UTILISER
 
 1. Cliquez sur l'icone de l'extension ou appuyez sur Ctrl+Shift+S / Cmd+Shift+S
 2. Survolez n'importe quel element de la page
@@ -254,14 +254,14 @@ Disponible en anglais, francais, espagnol, allemand, portugais et japonais.
 5. Utilisez l'onglet Editeur pour des modifications en direct
 6. Exportez vers CodePen ou JSFiddle si necessaire
 
-**QUATRE ONGLETS PUISSANTS**
+QUATRE ONGLETS PUISSANTS
 
 - Onglet CSS : Consultez toutes les proprietes CSS, variables, animations, modele de boite et couleurs
 - Onglet HTML : Voyez la structure HTML de l'element
 - Onglet Source : Consultez les regles de feuille de style originales avec badges de specificite
 - Onglet Editeur : Modifiez et appliquez le CSS en temps reel
 
-**PARAMETRES PERSONNALISABLES**
+PARAMETRES PERSONNALISABLES
 
 - Choisissez le mode de selecteur (intelligent, original, aucun)
 - Inclure/exclure les elements enfants
@@ -287,73 +287,73 @@ La forma mas rapida y facil de inspeccionar, copiar y analizar estilos CSS en cu
 
 Inspecciona, copia y analiza estilos CSS en cualquier pagina web al instante con CSS Scanner Pro — la herramienta definitiva para desarrolladores y disenadores web.
 
-**CARACTERISTICAS PRINCIPALES**
+CARACTERISTICAS PRINCIPALES
 
-**Inspeccion CSS Instantanea**
+Inspeccion CSS Instantanea
 Pasa el cursor sobre cualquier elemento para ver sus estilos CSS completos con hermoso resaltado de sintaxis.
 
-**Copia con Un Clic**
+Copia con Un Clic
 Copia CSS, HTML o ambos al portapapeles al instante. No se necesita seleccion manual.
 
-**Resaltado de Sintaxis**
+Resaltado de Sintaxis
 Salida clara y codificada por colores que hace que leer CSS sea muy facil. Presentacion profesional del codigo.
 
-**Incluir CSS de Hijos**
+Incluir CSS de Hijos
 Extrae el CSS de componentes anidados con un clic. Obten componentes UI completos con todos sus estilos.
 
-**Editor CSS en Vivo**
+Editor CSS en Vivo
 Edita y aplica estilos en tiempo real. Ve los cambios instantaneamente sin salir de la pagina.
 
-**Exportar a CodePen y JSFiddle**
+Exportar a CodePen y JSFiddle
 Exporta cualquier componente a CodePen o JSFiddle con un clic. Perfecto para compartir y prototipar.
 
-**Exportar SCSS**
+Exportar SCSS
 Convierte CSS a SCSS anidado con variables auto-generadas. Copia al portapapeles con un clic.
 
-**Inspeccion de Variables CSS**
+Inspeccion de Variables CSS
 Visualiza las propiedades personalizadas definidas en los elementos y sus valores resueltos. Rastrea la herencia de variables.
 
-**Calculadora de Especificidad**
+Calculadora de Especificidad
 Ve los pesos de especificidad de los selectores en la pestana Fuente. Entiende que reglas tienen prioridad.
 
-**Inspector de Animaciones y Transiciones**
+Inspector de Animaciones y Transiciones
 Visualiza transiciones, animaciones y reglas @keyframes aplicadas a cualquier elemento.
 
-**Visualizacion del Modelo de Caja**
+Visualizacion del Modelo de Caja
 Ve las dimensiones de margen, borde, relleno y contenido en un diagrama visual.
 
-**Extraccion de Paleta de Colores**
+Extraccion de Paleta de Colores
 Detecta todos los colores usados en un elemento. Haz clic en cualquier muestra para copiar el valor del color.
 
-**Tema Claro y Oscuro**
+Tema Claro y Oscuro
 Cambia el inspector entre temas oscuro y claro segun tu preferencia.
 
-**Salida Optimizada**
+Salida Optimizada
 CSS limpio y comprimido con propiedades abreviadas. Sin elementos innecesarios, solo lo que necesitas.
 
-**Superposicion de Cuadricula**
+Superposicion de Cuadricula
 Activa una superposicion de cuadricula visual para inspeccionar disenos y alineacion.
 
-**Modo Inspector Fijado**
+Modo Inspector Fijado
 Congela el inspector para examinar elementos sin mover el raton.
 
-**Escaner de Elemento Padre**
+Escaner de Elemento Padre
 Navega por el arbol DOM para inspeccionar elementos padres facilmente.
 
-**Soporte Multiidioma**
+Soporte Multiidioma
 
-**Indicador de punto de quiebre responsive**
+Indicador de punto de quiebre responsive
 Ver el punto de quiebre actual (xs/sm/md/lg/xl/xxl) en el encabezado del inspector. Las insignias de media query en la pestaña Fuente muestran qué reglas @media están activas o inactivas.
 
-**Navegación por teclado mejorada**
+Navegación por teclado mejorada
 Cambia de pestaña con las teclas 1-4, navega entre hermanos con Izquierda/Derecha, copia rápida con Ctrl+C, recorre las secciones CSS con Tab/Shift+Tab.
 
-**Rendimiento optimizado**
+Rendimiento optimizado
 Inspección fluida con limitación requestAnimationFrame, caché de hojas de estilo, actualizaciones perezosas de pestañas y caché de estilos calculados.
 
 Disponible en ingles, frances, espanol, aleman, portugues y japones.
 
-**ATAJOS DE TECLADO**
+ATAJOS DE TECLADO
 
 - Activar Scanner: Ctrl+Shift+S (Windows/Linux) o Cmd+Shift+S (Mac)
 - Alternar Cuadricula: Ctrl+Shift+G (Windows/Linux) o Cmd+Shift+G (Mac)
@@ -365,7 +365,7 @@ Disponible en ingles, frances, espanol, aleman, portugues y japones.
 - Congelar/Descongelar: Espacio
 - Cerrar Scanner: Esc
 
-**PERFECTO PARA**
+PERFECTO PARA
 
 - Desarrolladores web inspeccionando CSS
 - Disenadores analizando estilos
@@ -373,7 +373,7 @@ Disponible en ingles, frances, espanol, aleman, portugues y japones.
 - Cualquiera depurando problemas de diseno
 - Desarrolladores copiando estilos de componentes
 
-**PRIVACIDAD PRIMERO**
+PRIVACIDAD PRIMERO
 
 - Sin recopilacion de datos
 - Sin servidores externos
@@ -381,7 +381,7 @@ Disponible en ingles, frances, espanol, aleman, portugues y japones.
 - Funciona completamente sin conexion
 - Todo el procesamiento ocurre localmente en tu navegador
 
-**COMO USAR**
+COMO USAR
 
 1. Haz clic en el icono de la extension o presiona Ctrl+Shift+S / Cmd+Shift+S
 2. Pasa el cursor sobre cualquier elemento de la pagina
@@ -390,14 +390,14 @@ Disponible en ingles, frances, espanol, aleman, portugues y japones.
 5. Usa la pestana Editor para cambios en vivo
 6. Exporta a CodePen o JSFiddle si es necesario
 
-**CUATRO PESTANAS POTENTES**
+CUATRO PESTANAS POTENTES
 
 - Pestana CSS: Ve todas las propiedades CSS, variables, animaciones, modelo de caja y colores
 - Pestana HTML: Ve la estructura HTML del elemento
 - Pestana Fuente: Ve las reglas de hoja de estilo originales con badges de especificidad
 - Pestana Editor: Edita y aplica CSS en tiempo real
 
-**CONFIGURACIONES PERSONALIZABLES**
+CONFIGURACIONES PERSONALIZABLES
 
 - Elige el modo de selector (inteligente, original, ninguno)
 - Incluir/excluir elementos hijos
@@ -423,73 +423,73 @@ Die schnellste und einfachste Moeglichkeit, CSS-Stile auf jeder Webseite zu insp
 
 Inspizieren, kopieren und analysieren Sie CSS-Stile auf jeder Webseite sofort mit CSS Scanner Pro — das ultimative Tool fuer Webentwickler und Designer.
 
-**HAUPTFUNKTIONEN**
+HAUPTFUNKTIONEN
 
-**Sofortige CSS-Inspektion**
+Sofortige CSS-Inspektion
 Bewegen Sie die Maus ueber ein beliebiges Element, um seine vollstaendigen CSS-Stile mit schoener Syntaxhervorhebung zu sehen.
 
-**Ein-Klick-Kopieren**
+Ein-Klick-Kopieren
 Kopieren Sie CSS, HTML oder beides sofort in Ihre Zwischenablage. Keine manuelle Auswahl erforderlich.
 
-**Syntaxhervorhebung**
+Syntaxhervorhebung
 Klare, farbcodierte Ausgabe macht das Lesen von CSS zum Kinderspiel. Professionelle Code-Praesentation.
 
-**Kinder-CSS Einbeziehen**
+Kinder-CSS Einbeziehen
 Extrahieren Sie verschachtelte Komponenten-CSS mit einem Klick. Erhalten Sie vollstaendige UI-Komponenten mit allen ihren Stilen.
 
-**Live CSS-Editor**
+Live CSS-Editor
 Bearbeiten und wenden Sie Stile in Echtzeit an. Sehen Sie Aenderungen sofort, ohne die Seite zu verlassen.
 
-**CodePen- & JSFiddle-Export**
+CodePen- & JSFiddle-Export
 Exportieren Sie jede Komponente mit einem Klick nach CodePen oder JSFiddle. Perfekt zum Teilen und Prototyping.
 
-**SCSS-Export**
+SCSS-Export
 Konvertieren Sie CSS in verschachteltes SCSS mit automatisch generierten Variablen. Mit einem Klick in die Zwischenablage kopieren.
 
-**CSS-Variablen-Inspektion**
+CSS-Variablen-Inspektion
 Sehen Sie benutzerdefinierte Eigenschaften, die auf Elementen definiert sind, und deren aufgeloeste Werte. Verfolgen Sie die Variablenvererbung.
 
-**Spezifitaetsrechner**
+Spezifitaetsrechner
 Zeigen Sie die Spezifitaetsgewichte der Selektoren im Quell-Tab an. Verstehen Sie, welche Regeln Vorrang haben.
 
-**Animations- und Uebergangs-Inspektor**
+Animations- und Uebergangs-Inspektor
 Sehen Sie Uebergaenge, Animationen und @keyframes-Regeln, die auf ein Element angewendet werden.
 
-**Box-Modell-Visualisierung**
+Box-Modell-Visualisierung
 Sehen Sie Abstand, Rahmen, Polsterung und Inhaltsdimensionen in einem visuellen Diagramm.
 
-**Farbpaletten-Extraktion**
+Farbpaletten-Extraktion
 Erkennen Sie alle auf einem Element verwendeten Farben. Klicken Sie auf eine Farbprobe, um den Farbwert zu kopieren.
 
-**Helles & Dunkles Design**
+Helles & Dunkles Design
 Wechseln Sie den Inspektor zwischen dunklem und hellem Design nach Ihren Vorlieben.
 
-**Optimierte Ausgabe**
+Optimierte Ausgabe
 Sauberes, komprimiertes CSS mit Kurzschreibweisen. Kein Ballast, nur das, was Sie brauchen.
 
-**Rasterueberlagerung**
+Rasterueberlagerung
 Schalten Sie eine visuelle Rasterueberlagerung ein, um Layouts und Ausrichtung zu inspizieren.
 
-**Inspektor-Anheftmodus**
+Inspektor-Anheftmodus
 Frieren Sie den Inspektor ein, um Elemente zu untersuchen, ohne die Maus zu bewegen.
 
-**Eltern-Element-Scanner**
+Eltern-Element-Scanner
 Navigieren Sie im DOM-Baum, um uebergeordnete Elemente einfach zu inspizieren.
 
-**Mehrsprachige Unterstuetzung**
+Mehrsprachige Unterstuetzung
 
-**Responsive Breakpoint-Anzeige**
+Responsive Breakpoint-Anzeige
 Sehen Sie den aktuellen Viewport-Breakpoint (xs/sm/md/lg/xl/xxl) in der Inspektor-Kopfzeile. Media-Query-Badges im Quell-Tab zeigen, welche @media-Regeln aktiv oder inaktiv sind.
 
-**Verbesserte Tastaturnavigation**
+Verbesserte Tastaturnavigation
 Wechseln Sie Tabs mit den Tasten 1-4, navigieren Sie zwischen Geschwistern mit Links/Rechts, schnelles Kopieren mit Ctrl+C, durchlaufen Sie CSS-Abschnitte mit Tab/Shift+Tab.
 
-**Leistungsoptimiert**
+Leistungsoptimiert
 Flüssige Inspektion mit requestAnimationFrame-Drosselung, Stylesheet-Cache, verzögerten Tab-Updates und berechneten Stil-Cache.
 
 Verfuegbar in Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch und Japanisch.
 
-**TASTATURKUERZEL**
+TASTATURKUERZEL
 
 - Scanner Aktivieren: Strg+Umschalt+S (Windows/Linux) oder Cmd+Shift+S (Mac)
 - Raster Umschalten: Strg+Umschalt+G (Windows/Linux) oder Cmd+Shift+G (Mac)
@@ -501,7 +501,7 @@ Verfuegbar in Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch und Japan
 - Einfrieren/Auftauen: Leertaste
 - Scanner Schliessen: Esc
 
-**PERFEKT FUER**
+PERFEKT FUER
 
 - Webentwickler, die CSS inspizieren
 - Designer, die Stile analysieren
@@ -509,7 +509,7 @@ Verfuegbar in Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch und Japan
 - Alle, die Layout-Probleme debuggen
 - Entwickler, die Komponenten-Stile kopieren
 
-**DATENSCHUTZ ZUERST**
+DATENSCHUTZ ZUERST
 
 - Keine Datenerfassung
 - Keine externen Server
@@ -517,7 +517,7 @@ Verfuegbar in Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch und Japan
 - Funktioniert vollstaendig offline
 - Alle Verarbeitungen erfolgen lokal in Ihrem Browser
 
-**WIE ZU VERWENDEN**
+WIE ZU VERWENDEN
 
 1. Klicken Sie auf das Erweiterungssymbol oder druecken Sie Strg+Umschalt+S / Cmd+Shift+S
 2. Bewegen Sie die Maus ueber ein beliebiges Element auf der Seite
@@ -526,14 +526,14 @@ Verfuegbar in Englisch, Franzoesisch, Spanisch, Deutsch, Portugiesisch und Japan
 5. Verwenden Sie die Editor-Registerkarte fuer Live-Aenderungen
 6. Exportieren Sie bei Bedarf nach CodePen oder JSFiddle
 
-**VIER LEISTUNGSSTARKE REGISTERKARTEN**
+VIER LEISTUNGSSTARKE REGISTERKARTEN
 
 - CSS-Tab: Alle berechneten CSS-Eigenschaften, Variablen, Animationen, Box-Modell und Farben anzeigen
 - HTML-Tab: HTML-Struktur des Elements anzeigen
 - Quell-Tab: Urspruengliche Stylesheet-Regeln mit Spezifitaets-Badges anzeigen
 - Editor-Tab: CSS in Echtzeit bearbeiten und anwenden
 
-**ANPASSBARE EINSTELLUNGEN**
+ANPASSBARE EINSTELLUNGEN
 
 - Selektormodus waehlen (smart, original, keine)
 - Kindelemente ein-/ausschliessen
@@ -559,73 +559,73 @@ A maneira mais rapida e facil de inspecionar, copiar e analisar estilos CSS em q
 
 Inspecione, copie e analise estilos CSS em qualquer pagina web instantaneamente com CSS Scanner Pro — a ferramenta definitiva para desenvolvedores e designers web.
 
-**RECURSOS PRINCIPAIS**
+RECURSOS PRINCIPAIS
 
-**Inspecao CSS Instantanea**
+Inspecao CSS Instantanea
 Passe o mouse sobre qualquer elemento para ver seus estilos CSS completos com destaque de sintaxe.
 
-**Copia com Um Clique**
+Copia com Um Clique
 Copie CSS, HTML ou ambos para a area de transferencia instantaneamente. Nenhuma selecao manual necessaria.
 
-**Destaque de Sintaxe**
+Destaque de Sintaxe
 Saida clara e codificada por cores torna a leitura de CSS muito facil. Apresentacao profissional do codigo.
 
-**Incluir CSS dos Filhos**
+Incluir CSS dos Filhos
 Extraia o CSS de componentes aninhados com um clique. Obtenha componentes UI completos com todos os seus estilos.
 
-**Editor CSS ao Vivo**
+Editor CSS ao Vivo
 Edite e aplique estilos em tempo real. Veja as mudancas instantaneamente sem sair da pagina.
 
-**Exportar para CodePen e JSFiddle**
+Exportar para CodePen e JSFiddle
 Exporte qualquer componente para CodePen ou JSFiddle com um clique. Perfeito para compartilhar e prototipar.
 
-**Exportar SCSS**
+Exportar SCSS
 Converta CSS para SCSS aninhado com variaveis auto-geradas. Copie para a area de transferencia com um clique.
 
-**Inspecao de Variaveis CSS**
+Inspecao de Variaveis CSS
 Visualize propriedades personalizadas definidas nos elementos e seus valores resolvidos. Rastreie a heranca de variaveis.
 
-**Calculadora de Especificidade**
+Calculadora de Especificidade
 Veja os pesos de especificidade dos seletores na aba Fonte. Entenda quais regras tem prioridade.
 
-**Inspetor de Animacoes e Transicoes**
+Inspetor de Animacoes e Transicoes
 Visualize transicoes, animacoes e regras @keyframes aplicadas a qualquer elemento.
 
-**Visualizacao do Modelo de Caixa**
+Visualizacao do Modelo de Caixa
 Veja as dimensoes de margem, borda, preenchimento e conteudo em um diagrama visual.
 
-**Extracao de Paleta de Cores**
+Extracao de Paleta de Cores
 Detecte todas as cores usadas em um elemento. Clique em qualquer amostra para copiar o valor da cor.
 
-**Tema Claro e Escuro**
+Tema Claro e Escuro
 Alterne o inspetor entre temas escuro e claro conforme sua preferencia.
 
-**Saida Otimizada**
+Saida Otimizada
 CSS limpo e comprimido com propriedades abreviadas. Sem excessos, apenas o que voce precisa.
 
-**Sobreposicao de Grade**
+Sobreposicao de Grade
 Ative uma sobreposicao de grade visual para inspecionar layouts e alinhamento.
 
-**Modo Inspetor Fixado**
+Modo Inspetor Fixado
 Congele o inspetor para examinar elementos sem mover o mouse.
 
-**Scanner de Elemento Pai**
+Scanner de Elemento Pai
 Navegue pela arvore DOM para inspecionar elementos pai facilmente.
 
-**Suporte Multilinguistico**
+Suporte Multilinguistico
 
-**Indicador de ponto de quebra responsivo**
+Indicador de ponto de quebra responsivo
 Veja o ponto de quebra atual (xs/sm/md/lg/xl/xxl) no cabeçalho do inspetor. Os badges de media query na aba Fonte mostram quais regras @media estão ativas ou inativas.
 
-**Navegação por teclado aprimorada**
+Navegação por teclado aprimorada
 Troque de aba com as teclas 1-4, navegue entre irmãos com Esquerda/Direita, cópia rápida com Ctrl+C, percorra as seções CSS com Tab/Shift+Tab.
 
-**Desempenho otimizado**
+Desempenho otimizado
 Inspeção fluida com limitação requestAnimationFrame, cache de folhas de estilo, atualizações preguiçosas de abas e cache de estilos computados.
 
 Disponivel em ingles, frances, espanhol, alemao, portugues e japones.
 
-**ATALHOS DE TECLADO**
+ATALHOS DE TECLADO
 
 - Ativar Scanner: Ctrl+Shift+S (Windows/Linux) ou Cmd+Shift+S (Mac)
 - Alternar Grade: Ctrl+Shift+G (Windows/Linux) ou Cmd+Shift+G (Mac)
@@ -637,7 +637,7 @@ Disponivel em ingles, frances, espanhol, alemao, portugues e japones.
 - Congelar/Descongelar: Espaco
 - Fechar Scanner: Esc
 
-**PERFEITO PARA**
+PERFEITO PARA
 
 - Desenvolvedores web inspecionando CSS
 - Designers analisando estilos
@@ -645,7 +645,7 @@ Disponivel em ingles, frances, espanhol, alemao, portugues e japones.
 - Qualquer pessoa depurando problemas de layout
 - Desenvolvedores copiando estilos de componentes
 
-**PRIVACIDADE EM PRIMEIRO LUGAR**
+PRIVACIDADE EM PRIMEIRO LUGAR
 
 - Sem coleta de dados
 - Sem servidores externos
@@ -653,7 +653,7 @@ Disponivel em ingles, frances, espanhol, alemao, portugues e japones.
 - Funciona completamente offline
 - Todo o processamento acontece localmente no seu navegador
 
-**COMO USAR**
+COMO USAR
 
 1. Clique no icone da extensao ou pressione Ctrl+Shift+S / Cmd+Shift+S
 2. Passe o mouse sobre qualquer elemento da pagina
@@ -662,14 +662,14 @@ Disponivel em ingles, frances, espanhol, alemao, portugues e japones.
 5. Use a aba Editor para alteracoes ao vivo
 6. Exporte para CodePen ou JSFiddle se necessario
 
-**QUATRO ABAS PODEROSAS**
+QUATRO ABAS PODEROSAS
 
 - Aba CSS: Veja todas as propriedades CSS, variaveis, animacoes, modelo de caixa e cores
 - Aba HTML: Veja a estrutura HTML do elemento
 - Aba Fonte: Veja as regras de folha de estilo originais com badges de especificidade
 - Aba Editor: Edite e aplique CSS em tempo real
 
-**CONFIGURACOES PERSONALIZAVEIS**
+CONFIGURACOES PERSONALIZAVEIS
 
 - Escolha o modo de seletor (inteligente, original, nenhum)
 - Incluir/excluir elementos filhos
@@ -695,73 +695,73 @@ CSS Scanner Pro
 
 CSS Scanner Proで、あらゆるウェブページのCSSスタイルを瞬時に検査、コピー、分析 — ウェブ開発者とデザイナーのための究極のツール。
 
-**主な機能**
+主な機能
 
-**即座のCSS検査**
+即座のCSS検査
 任意の要素にマウスを合わせるだけで、美しいシンタックスハイライト付きの完全なCSSスタイルを確認できます。
 
-**ワンクリックコピー**
+ワンクリックコピー
 CSS、HTML、またはその両方を瞬時にクリップボードにコピー。手動選択は不要です。
 
-**シンタックスハイライト**
+シンタックスハイライト
 明確で色分けされた出力により、CSSの読み取りが簡単に。プロフェッショナルなコード表示。
 
-**子要素のCSSを含める**
+子要素のCSSを含める
 ワンクリックでネストされたコンポーネントのCSSを抽出。すべてのスタイルを含む完全なUIコンポーネントを取得。
 
-**ライブCSSエディター**
+ライブCSSエディター
 リアルタイムでスタイルを編集・適用。ページを離れることなく即座に変更を確認。
 
-**CodePen & JSFiddleエクスポート**
+CodePen & JSFiddleエクスポート
 ワンクリックで任意のコンポーネントをCodePenまたはJSFiddleにエクスポート。共有やプロトタイピングに最適。
 
-**SCSSエクスポート**
+SCSSエクスポート
 CSSを自動生成された変数付きのネストされたSCSSに変換。ワンクリックでクリップボードにコピー。
 
-**CSS変数の検査**
+CSS変数の検査
 要素に定義されたカスタムプロパティとその解決された値を確認。変数の継承を追跡。
 
-**詳細度計算機**
+詳細度計算機
 ソースタブでセレクターの詳細度の重みを表示。どのルールが優先されるかを理解。
 
-**アニメーション＆トランジションインスペクター**
+アニメーション＆トランジションインスペクター
 任意の要素に適用されたトランジション、アニメーション、@keyframesルールを表示。
 
-**ボックスモデルの視覚化**
+ボックスモデルの視覚化
 マージン、ボーダー、パディング、コンテンツの寸法をビジュアルダイアグラムで確認。
 
-**カラーパレット抽出**
+カラーパレット抽出
 要素で使用されているすべての色を検出。スウォッチをクリックして色の値をコピー。
 
-**ライト＆ダークテーマ**
+ライト＆ダークテーマ
 好みに合わせてインスペクターのダークテーマとライトテーマを切り替え。
 
-**最適化された出力**
+最適化された出力
 短縮プロパティを使用したクリーンで圧縮されたCSS。無駄なく、必要なものだけ。
 
-**グリッドオーバーレイ**
+グリッドオーバーレイ
 ビジュアルグリッドオーバーレイを切り替えて、レイアウトと配置を検査。
 
-**インスペクター固定モード**
+インスペクター固定モード
 マウスを動かさずに要素を調べるためにインスペクターを固定。
 
-**親要素スキャナー**
+親要素スキャナー
 DOMツリーを上に移動して、親要素を簡単に検査。
 
-**多言語サポート**
+多言語サポート
 
-**レスポンシブブレークポイントインジケーター**
+レスポンシブブレークポイントインジケーター
 インスペクターヘッダーで現在のビューポートブレークポイント（xs/sm/md/lg/xl/xxl）を確認。ソースタブのメディアクエリバッジでどの@mediaルールがアクティブまたは非アクティブかを表示。
 
-**キーボードナビゲーション強化**
+キーボードナビゲーション強化
 数字キー1-4でタブ切替、左右矢印で兄弟要素間を移動、Ctrl+Cでクイックコピー、Tab/Shift+TabでCSSセクションを巡回。
 
-**パフォーマンス最適化**
+パフォーマンス最適化
 requestAnimationFrameスロットリング、スタイルシートキャッシュ、遅延タブ更新、計算済みスタイルキャッシュによるスムーズな検査。
 
 英語、フランス語、スペイン語、ドイツ語、ポルトガル語、日本語で利用可能。
 
-**キーボードショートカット**
+キーボードショートカット
 
 - スキャナーを起動: Ctrl+Shift+S (Windows/Linux) または Cmd+Shift+S (Mac)
 - グリッドオーバーレイ切替: Ctrl+Shift+G (Windows/Linux) または Cmd+Shift+G (Mac)
@@ -773,7 +773,7 @@ requestAnimationFrameスロットリング、スタイルシートキャッシ�
 - フリーズ/解除: Space
 - スキャナーを閉じる: Esc
 
-**こんな方に最適**
+こんな方に最適
 
 - CSSを検査するウェブ開発者
 - スタイルを分析するデザイナー
@@ -781,7 +781,7 @@ requestAnimationFrameスロットリング、スタイルシートキャッシ�
 - レイアウトの問題をデバッグする方
 - コンポーネントスタイルをコピーする開発者
 
-**プライバシー最優先**
+プライバシー最優先
 
 - データ収集なし
 - 外部サーバーなし
@@ -789,7 +789,7 @@ requestAnimationFrameスロットリング、スタイルシートキャッシ�
 - 完全にオフラインで動作
 - すべての処理はブラウザ内でローカルに実行
 
-**使い方**
+使い方
 
 1. 拡張機能アイコンをクリックするか、Ctrl+Shift+S / Cmd+Shift+Sを押す
 2. ページ上の任意の要素にマウスを合わせる
@@ -798,14 +798,14 @@ requestAnimationFrameスロットリング、スタイルシートキャッシ�
 5. エディタータブでライブ変更
 6. 必要に応じてCodePenまたはJSFiddleにエクスポート
 
-**4つの強力なタブ**
+4つの強力なタブ
 
 - CSSタブ: すべてのCSS計算プロパティ、変数、アニメーション、ボックスモデル、色を表示
 - HTMLタブ: 要素のHTML構造を表示
 - ソースタブ: 詳細度バッジ付きのオリジナルスタイルシートルールを表示
 - エディタータブ: リアルタイムでCSSを編集・適用
 
-**カスタマイズ可能な設定**
+カスタマイズ可能な設定
 
 - セレクターモードを選択（スマート、オリジナル、なし）
 - 子要素の包含/除外
