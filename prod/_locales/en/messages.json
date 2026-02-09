@@ -297,5 +297,124 @@
   },
   "settingsSaveButton": {
     "message": "Save Settings"
+  },
+
+  "settingsSectionTheme": {
+    "message": "Theme:"
+  },
+  "settingsThemeDark": {
+    "message": "Dark mode"
+  },
+  "settingsThemeLight": {
+    "message": "Light mode"
+  },
+
+  "cssVariablesTitle": {
+    "message": "CSS Variables"
+  },
+  "cssVariablesDefined": {
+    "message": "Defined on element"
+  },
+  "cssVariablesUsed": {
+    "message": "Used in styles"
+  },
+  "cssVariablesResolved": {
+    "message": "Resolved value"
+  },
+  "cssVariablesInherited": {
+    "message": "Inherited from"
+  },
+  "cssVariablesNone": {
+    "message": "No CSS variables detected"
+  },
+
+  "specificityLabel": {
+    "message": "Specificity"
+  },
+  "specificityTitle": {
+    "message": "CSS Specificity"
+  },
+
+  "animationsTitle": {
+    "message": "Animations & Transitions"
+  },
+  "animationsTransitions": {
+    "message": "Transitions"
+  },
+  "animationsAnimations": {
+    "message": "Animations"
+  },
+  "animationsKeyframes": {
+    "message": "@keyframes"
+  },
+  "animationsNone": {
+    "message": "No animations or transitions"
+  },
+
+  "btnJSFiddle": {
+    "message": "JSFiddle"
+  },
+  "btnSCSS": {
+    "message": "SCSS"
+  },
+  "notificationSCSSCopied": {
+    "message": "SCSS copied to clipboard!"
+  },
+
+  "boxModelTitle": {
+    "message": "Box Model"
+  },
+  "colorPaletteTitle": {
+    "message": "Color Palette"
+  },
+  "colorPaletteNone": {
+    "message": "No colors detected"
+  },
+  "notificationColorCopied": {
+    "message": "Color copied!"
+  },
+
+  "featureJSFiddleExport": {
+    "message": "JSFiddle Export - One-click fiddle export"
+  },
+  "featureSCSSExport": {
+    "message": "SCSS Export - Nested SCSS with variables"
+  },
+  "featureCSSVariables": {
+    "message": "CSS Variables - Inspect custom properties"
+  },
+  "featureAnimationInspector": {
+    "message": "Animation Inspector - View transitions & keyframes"
+  },
+  "featureSpecificity": {
+    "message": "Specificity Calculator - See selector weights"
+  },
+
+  "breakpointLabel": {
+    "message": "Breakpoint"
+  },
+  "breakpointXS": {
+    "message": "Extra Small"
+  },
+  "breakpointSM": {
+    "message": "Small"
+  },
+  "breakpointMD": {
+    "message": "Medium"
+  },
+  "breakpointLG": {
+    "message": "Large"
+  },
+  "breakpointXL": {
+    "message": "Extra Large"
+  },
+  "breakpointXXL": {
+    "message": "Extra Extra Large"
+  },
+  "mediaQueryActive": {
+    "message": "Active"
+  },
+  "mediaQueryInactive": {
+    "message": "Inactive"
   }
 }

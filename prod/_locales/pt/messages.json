@@ -3,49 +3,49 @@
     "message": "CSS Scanner Pro"
   },
   "extDescription": {
-    "message": "La forma más rápida y fácil de inspeccionar, copiar y analizar estilos CSS en cualquier página web"
+    "message": "A maneira mais rápida e fácil de inspecionar, copiar e analisar estilos CSS em qualquer página web"
   },
   "extTitle": {
-    "message": "CSS Scanner Pro - Haz clic para activar"
+    "message": "CSS Scanner Pro - Clique para ativar"
   },
   "cmdActivateScanner": {
-    "message": "Activar escáner CSS"
+    "message": "Ativar scanner CSS"
   },
   "cmdToggleGrid": {
-    "message": "Alternar cuadrícula"
+    "message": "Alternar grade"
   },
   "cmdScanParent": {
-    "message": "Escanear elemento padre"
+    "message": "Escanear elemento pai"
   },
 
   "guideTitle": {
-    "message": "CSS Scanner Pro - Guía rápida"
+    "message": "CSS Scanner Pro - Guia rápido"
   },
   "guideQuickStart": {
-    "message": "Inicio rápido"
+    "message": "Início rápido"
   },
   "guideHowToUse": {
-    "message": "Cómo usar"
+    "message": "Como usar"
   },
   "guideFeatures": {
-    "message": "Características"
+    "message": "Recursos"
   },
   "guideProTip": {
-    "message": "Consejo:"
+    "message": "Dica:"
   },
 
   "shortcutActivateScanner": {
-    "message": "Activar escáner"
+    "message": "Ativar scanner"
   },
   "shortcutToggleGrid": {
-    "message": "Alternar cuadrícula"
+    "message": "Alternar grade"
   },
   "shortcutScanParent": {
-    "message": "Escanear padre"
+    "message": "Escanear pai"
   },
 
   "guideStep1": {
-    "message": "Presiona $SHORTCUT$ o haz clic en el icono de la extensión para activar",
+    "message": "Pressione $SHORTCUT$ ou clique no ícone da extensão para ativar",
     "placeholders": {
       "shortcut": {
         "content": "$1"
@@ -53,10 +53,10 @@
     }
   },
   "guideStep2": {
-    "message": "Pasa el cursor sobre cualquier elemento de la página para ver su CSS"
+    "message": "Passe o mouse sobre qualquer elemento da página para ver seu CSS"
   },
   "guideStep3": {
-    "message": "Usa las pestañas: $CSS$, $HTML$, $SOURCE$, $EDITOR$",
+    "message": "Use as abas: $CSS$, $HTML$, $SOURCE$, $EDITOR$",
     "placeholders": {
       "css": {
         "content": "$1"
@@ -73,7 +73,7 @@
     }
   },
   "guideStep4": {
-    "message": "Haz clic en $COPY$ para copiar el código al portapapeles",
+    "message": "Clique em $COPY$ para copiar o código para a área de transferência",
     "placeholders": {
       "copy": {
         "content": "$1"
@@ -81,7 +81,7 @@
     }
   },
   "guideStep5": {
-    "message": "Presiona $SPACE$ para congelar/descongelar, $ESC$ para cerrar",
+    "message": "Pressione $SPACE$ para congelar/descongelar, $ESC$ para fechar",
     "placeholders": {
       "space": {
         "content": "$1"
@@ -93,23 +93,23 @@
   },
 
   "featureSyntaxHighlighting": {
-    "message": "Resaltado de sintaxis - CSS y HTML con código de colores"
+    "message": "Destaque de sintaxe - CSS e HTML coloridos"
   },
   "featureIncludeChildren": {
-    "message": "Incluir hijos - Extraer CSS completo del componente"
+    "message": "Incluir filhos - Extrair CSS completo do componente"
   },
   "featureLiveEditor": {
-    "message": "Editor en vivo - Editar y aplicar CSS en tiempo real"
+    "message": "Editor ao vivo - Editar e aplicar CSS em tempo real"
   },
   "featureCodePenExport": {
-    "message": "Exportar a CodePen - Exportación de componentes con un clic"
+    "message": "Exportar CodePen - Exportação de componente com um clique"
   },
   "featureOptimizedCSS": {
-    "message": "CSS optimizado - Propiedades abreviadas y limpias"
+    "message": "CSS otimizado - Propriedades abreviadas e limpas"
   },
 
   "proTipMessage": {
-    "message": "¡Activa \"Incluir CSS de elementos hijos\" en la pestaña CSS para extraer componentes UI completos con todos los estilos anidados!"
+    "message": "Ative \"Incluir CSS dos elementos filhos\" na aba CSS para extrair componentes UI completos com todos os estilos aninhados!"
   },
 
   "tabCSS": {
@@ -119,7 +119,7 @@
     "message": "HTML"
   },
   "tabSource": {
-    "message": "Fuente"
+    "message": "Fonte"
   },
   "tabEditor": {
     "message": "Editor"
@@ -132,67 +132,67 @@
     "message": "CodePen"
   },
   "btnPin": {
-    "message": "Fijar"
+    "message": "Fixar"
   },
   "btnUnpin": {
-    "message": "Desfijar"
+    "message": "Desfixar"
   },
   "btnApply": {
     "message": "Aplicar"
   },
   "btnReset": {
-    "message": "Restablecer"
+    "message": "Redefinir"
   },
   "btnSettings": {
-    "message": "Configuración"
+    "message": "Configurações"
   },
   "btnGuide": {
-    "message": "Mostrar guía"
+    "message": "Mostrar guia"
   },
   "btnClose": {
-    "message": "Cerrar"
+    "message": "Fechar"
   },
 
   "optionIncludeChildren": {
-    "message": "Incluir CSS de elementos hijos"
+    "message": "Incluir CSS dos elementos filhos"
   },
   "optionCopyHTML": {
-    "message": "Copiar HTML junto con CSS"
+    "message": "Copiar HTML junto com CSS"
   },
   "optionCopyOnClick": {
-    "message": "Copiar CSS al hacer clic"
+    "message": "Copiar CSS ao clicar"
   },
   "optionPinOnSpace": {
-    "message": "Fijar/Desfijar con Espacio"
+    "message": "Fixar/Desfixar com Espaço"
   },
   "optionShowGrid": {
-    "message": "Mostrar cuadrícula"
+    "message": "Mostrar grade"
   },
 
   "notificationActivated": {
-    "message": "¡Escáner CSS activado!"
+    "message": "Scanner CSS ativado!"
   },
   "notificationDeactivated": {
-    "message": "Escáner CSS desactivado"
+    "message": "Scanner CSS desativado"
   },
   "notificationCopied": {
-    "message": "¡Copiado al portapapeles!"
+    "message": "Copiado para a área de transferência!"
   },
   "notificationPinned": {
-    "message": "Inspector fijado"
+    "message": "Inspetor fixado"
   },
   "notificationUnpinned": {
-    "message": "Inspector desfijado"
+    "message": "Inspetor desfixado"
   },
   "notificationApplied": {
-    "message": "¡CSS aplicado!"
+    "message": "CSS aplicado!"
   },
 
   "settingsTitle": {
-    "message": "Configuración"
+    "message": "Configurações"
   },
   "settingsSave": {
-    "message": "Guardar"
+    "message": "Salvar"
   },
 
   "footerFreeze": {
@@ -202,10 +202,10 @@
     "message": "descongelar"
   },
   "footerSpace": {
-    "message": "Espacio"
+    "message": "Espaço"
   },
   "footerBackspace": {
-    "message": "Retroceso"
+    "message": "Backspace"
   },
   "footerEsc": {
     "message": "Esc"
@@ -214,141 +214,141 @@
     "message": "para"
   },
   "footerClose": {
-    "message": "cerrar"
+    "message": "fechar"
   },
 
   "settingsSectionOnClick": {
-    "message": "Al hacer clic:"
+    "message": "Ao clicar:"
   },
   "settingsOptionCopyOnClick": {
-    "message": "Copiar código automáticamente al hacer clic en el elemento"
+    "message": "Copiar código automaticamente ao clicar no elemento"
   },
   "settingsOptionPinOnSpace": {
-    "message": "Fijar ventana al presionar Espacio"
+    "message": "Fixar janela ao pressionar Espaço"
   },
   "settingsSectionChildCSS": {
-    "message": "CSS de elementos hijos:"
+    "message": "CSS dos elementos filhos:"
   },
   "settingsOptionIncludeChildren": {
-    "message": "Incluir elementos hijos"
+    "message": "Incluir elementos filhos"
   },
   "settingsOptionExcludeChildren": {
-    "message": "No incluir"
+    "message": "Não incluir"
   },
   "settingsSectionHTML": {
     "message": "Código HTML:"
   },
   "settingsOptionCopyHTML": {
-    "message": "Copiar HTML junto con CSS"
+    "message": "Copiar HTML junto com CSS"
   },
   "settingsSectionDisplay": {
-    "message": "Visualización:"
+    "message": "Exibição:"
   },
   "settingsOptionShowGrid": {
-    "message": "Mostrar cuadrícula"
+    "message": "Mostrar grade"
   },
   "settingsOptionGuidelines": {
-    "message": "Guías"
+    "message": "Linhas guia"
   },
   "settingsSectionLanguage": {
     "message": "Idioma:"
   },
   "settingsLanguageAuto": {
-    "message": "Detección automática (Predeterminado del navegador)"
+    "message": "Detecção automática (Padrão do navegador)"
   },
   "settingsLanguageHelp": {
-    "message": "Seleccione su idioma preferido. Los cambios se aplicarán después de guardar."
+    "message": "Selecione seu idioma preferido. As alterações serão aplicadas após salvar."
   },
   "settingsSectionSelectors": {
-    "message": "Selectores CSS:"
+    "message": "Seletores CSS:"
   },
   "settingsSelectorSmart": {
-    "message": "Generar selectores inteligentemente (usar #id o .class)"
+    "message": "Gerar seletores inteligentemente (usar #id ou .class)"
   },
   "settingsSelectorOriginal": {
-    "message": "Copiar selectores originales (de la hoja de estilo)"
+    "message": "Copiar seletores originais (da folha de estilo)"
   },
   "settingsSelectorNone": {
-    "message": "No copiar selectores CSS"
+    "message": "Não copiar seletores CSS"
   },
   "settingsSelectorTruncated": {
-    "message": "Selector truncado"
+    "message": "Seletor truncado"
   },
   "settingsSectionOther": {
-    "message": "Otras preferencias:"
+    "message": "Outras preferências:"
   },
   "settingsOptionIgnoreInherited": {
-    "message": "Ignorar estilos heredados"
+    "message": "Ignorar estilos herdados"
   },
   "settingsOptionIgnoreVendor": {
-    "message": "Ignorar prefijos de navegador"
+    "message": "Ignorar prefixos de navegador"
   },
   "settingsOptionIgnoreBoxSizing": {
     "message": "Ignorar box-sizing"
   },
   "settingsOptionConvertFontSize": {
-    "message": "Convertir font-size a px"
+    "message": "Converter font-size para px"
   },
   "settingsOptionNestPseudo": {
-    "message": "Anidar pseudo-clases y media queries"
+    "message": "Aninhar pseudo-classes e media queries"
   },
   "settingsOptionConvertURLs": {
-    "message": "Convertir URLs relativas a absolutas"
+    "message": "Converter URLs relativos para absolutos"
   },
   "settingsSaveButton": {
-    "message": "Guardar configuración"
+    "message": "Salvar configurações"
   },
 
   "settingsSectionTheme": {
     "message": "Tema:"
   },
   "settingsThemeDark": {
-    "message": "Modo oscuro"
+    "message": "Modo escuro"
   },
   "settingsThemeLight": {
     "message": "Modo claro"
   },
 
   "cssVariablesTitle": {
-    "message": "Variables CSS"
+    "message": "Variáveis CSS"
   },
   "cssVariablesDefined": {
-    "message": "Definidas en el elemento"
+    "message": "Definidas no elemento"
   },
   "cssVariablesUsed": {
-    "message": "Usadas en los estilos"
+    "message": "Usadas nos estilos"
   },
   "cssVariablesResolved": {
-    "message": "Valor resuelto"
+    "message": "Valor resolvido"
   },
   "cssVariablesInherited": {
-    "message": "Heredado de"
+    "message": "Herdado de"
   },
   "cssVariablesNone": {
-    "message": "No se detectaron variables CSS"
+    "message": "Nenhuma variável CSS detectada"
   },
 
   "specificityLabel": {
-    "message": "Especificidad"
+    "message": "Especificidade"
   },
   "specificityTitle": {
-    "message": "Especificidad CSS"
+    "message": "Especificidade CSS"
   },
 
   "animationsTitle": {
-    "message": "Animaciones y transiciones"
+    "message": "Animações e transições"
   },
   "animationsTransitions": {
-    "message": "Transiciones"
+    "message": "Transições"
   },
   "animationsAnimations": {
-    "message": "Animaciones"
+    "message": "Animações"
   },
   "animationsKeyframes": {
     "message": "@keyframes"
   },
   "animationsNone": {
-    "message": "Sin animaciones ni transiciones"
+    "message": "Sem animações ou transições"
   },
 
   "btnJSFiddle": {
@@ -358,49 +358,49 @@
     "message": "SCSS"
   },
   "notificationSCSSCopied": {
-    "message": "SCSS copiado al portapapeles!"
+    "message": "SCSS copiado para a área de transferência!"
   },
 
   "boxModelTitle": {
-    "message": "Modelo de caja"
+    "message": "Modelo de caixa"
   },
   "colorPaletteTitle": {
-    "message": "Paleta de colores"
+    "message": "Paleta de cores"
   },
   "colorPaletteNone": {
-    "message": "No se detectaron colores"
+    "message": "Nenhuma cor detectada"
   },
   "notificationColorCopied": {
-    "message": "Color copiado!"
+    "message": "Cor copiada!"
   },
 
   "featureJSFiddleExport": {
-    "message": "Exportar a JSFiddle - Exportar fiddle con un clic"
+    "message": "Exportar JSFiddle - Exportar fiddle com um clique"
   },
   "featureSCSSExport": {
-    "message": "Exportar SCSS - SCSS anidado con variables"
+    "message": "Exportar SCSS - SCSS aninhado com variáveis"
   },
   "featureCSSVariables": {
-    "message": "Variables CSS - Inspeccionar propiedades personalizadas"
+    "message": "Variáveis CSS - Inspecionar propriedades personalizadas"
   },
   "featureAnimationInspector": {
-    "message": "Inspector de animaciones - Ver transiciones y keyframes"
+    "message": "Inspetor de animações - Ver transições e keyframes"
   },
   "featureSpecificity": {
-    "message": "Calculadora de especificidad - Ver pesos de selectores"
+    "message": "Calculadora de especificidade - Ver pesos dos seletores"
   },
 
   "breakpointLabel": {
-    "message": "Punto de quiebre"
+    "message": "Ponto de quebra"
   },
   "breakpointXS": {
-    "message": "Extra pequeño"
+    "message": "Extra pequeno"
   },
   "breakpointSM": {
-    "message": "Pequeño"
+    "message": "Pequeno"
   },
   "breakpointMD": {
-    "message": "Mediano"
+    "message": "Médio"
   },
   "breakpointLG": {
     "message": "Grande"
@@ -412,9 +412,9 @@
     "message": "Extra extra grande"
   },
   "mediaQueryActive": {
-    "message": "Activo"
+    "message": "Ativo"
   },
   "mediaQueryInactive": {
-    "message": "Inactivo"
+    "message": "Inativo"
   }
 }

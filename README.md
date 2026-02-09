@@ -6,7 +6,7 @@
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://github.com/Thecoolsim/chrome-extensions/tree/main/css-scanner-pro)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/Thecoolsim/chrome-extensions/main/css-scanner-pro/LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://raw.githubusercontent.com/Thecoolsim/chrome-extensions/main/css-scanner-pro/manifest.json)
+[![Version](https://img.shields.io/badge/version-1.0.2-green.svg)](https://raw.githubusercontent.com/Thecoolsim/chrome-extensions/main/css-scanner-pro/manifest.json)
 
 ---
 
@@ -110,10 +110,12 @@ Customize via:
 
 CSS Scanner Pro supports:
 
-- 🇬🇧 English  
-- 🇫🇷 French  
-- 🇪🇸 Spanish  
-- 🇩🇪 German  
+- 🇬🇧 English
+- 🇫🇷 French
+- 🇪🇸 Spanish
+- 🇩🇪 German
+- 🇧🇷 Portuguese
+- 🇯🇵 Japanese
 
 I18N documentation:  
 https://github.com/Thecoolsim/chrome-extensions/tree/main/css-scanner-pro/I18N_README.md
@@ -200,26 +202,36 @@ https://github.com/Thecoolsim/chrome-extensions/blob/main/css-scanner-pro/CHROME
 
 ## 📊 Project Stats
 
-- ~2,400 lines of code  
-- 20+ files  
-- 4 languages  
-- ~80 KB  
+- ~3,600 lines of code
+- 25+ files
+- 6 languages
+- ~120 KB
 
 ---
 
 ## 🗺️ Roadmap
 
-### v1.1
-- Chrome Web Store release  
-- CSS variable extraction  
-- JSFiddle export  
-- Dark mode  
+### v1.0.2
+- CSS variable extraction
+- JSFiddle export
+- Light/Dark theme toggle
+- SCSS export
+- Specificity calculator
+- Animation inspector
+- Box model visualization
+- Color palette extraction
+- Portuguese & Japanese translations (6 languages total)
 
-### v1.2
-- SCSS export  
-- Specificity calculator  
-- Animation inspector  
-- More translations  
+### v1.1.0 (Current)
+- Responsive breakpoint indicator with media query badges
+- Enhanced keyboard navigation (1-4 tab switch, arrow sibling nav, Ctrl+C quick copy, Tab section cycling)
+- Performance optimizations (rAF throttle, stylesheet cache, lazy tab updates, computed style cache)
+
+### v1.2 (Planned)
+- Chrome Web Store update
+- Custom breakpoint configuration
+- CSS property search/filter
+- Export history
 
 ---
 

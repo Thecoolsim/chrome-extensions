@@ -1,0 +1,420 @@
+{
+  "extName": {
+    "message": "CSS Scanner Pro"
+  },
+  "extDescription": {
+    "message": "あらゆるウェブページでCSSスタイルを検査、コピー、分析する最速で最も簡単な方法"
+  },
+  "extTitle": {
+    "message": "CSS Scanner Pro - クリックして有効化"
+  },
+  "cmdActivateScanner": {
+    "message": "CSSスキャナーを有効化"
+  },
+  "cmdToggleGrid": {
+    "message": "グリッドの切り替え"
+  },
+  "cmdScanParent": {
+    "message": "親要素をスキャン"
+  },
+
+  "guideTitle": {
+    "message": "CSS Scanner Pro - クイックガイド"
+  },
+  "guideQuickStart": {
+    "message": "クイックスタート"
+  },
+  "guideHowToUse": {
+    "message": "使い方"
+  },
+  "guideFeatures": {
+    "message": "機能"
+  },
+  "guideProTip": {
+    "message": "ヒント："
+  },
+
+  "shortcutActivateScanner": {
+    "message": "スキャナーを有効化"
+  },
+  "shortcutToggleGrid": {
+    "message": "グリッド切り替え"
+  },
+  "shortcutScanParent": {
+    "message": "親をスキャン"
+  },
+
+  "guideStep1": {
+    "message": "$SHORTCUT$ を押すか、拡張機能のアイコンをクリックして有効化",
+    "placeholders": {
+      "shortcut": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep2": {
+    "message": "ページ上の要素にマウスを合わせてCSSを確認"
+  },
+  "guideStep3": {
+    "message": "タブを使用: $CSS$、$HTML$、$SOURCE$、$EDITOR$",
+    "placeholders": {
+      "css": {
+        "content": "$1"
+      },
+      "html": {
+        "content": "$2"
+      },
+      "source": {
+        "content": "$3"
+      },
+      "editor": {
+        "content": "$4"
+      }
+    }
+  },
+  "guideStep4": {
+    "message": "$COPY$ をクリックしてコードをクリップボードにコピー",
+    "placeholders": {
+      "copy": {
+        "content": "$1"
+      }
+    }
+  },
+  "guideStep5": {
+    "message": "$SPACE$ で固定/解除、$ESC$ で閉じる",
+    "placeholders": {
+      "space": {
+        "content": "$1"
+      },
+      "esc": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "featureSyntaxHighlighting": {
+    "message": "シンタックスハイライト - 色分けされたCSS & HTML"
+  },
+  "featureIncludeChildren": {
+    "message": "子要素を含む - コンポーネント全体のCSSを抽出"
+  },
+  "featureLiveEditor": {
+    "message": "ライブエディター - リアルタイムでCSSを編集・適用"
+  },
+  "featureCodePenExport": {
+    "message": "CodePenエクスポート - ワンクリックでコンポーネントをエクスポート"
+  },
+  "featureOptimizedCSS": {
+    "message": "最適化されたCSS - クリーンなショートハンドプロパティ"
+  },
+
+  "proTipMessage": {
+    "message": "CSSタブで「子要素のCSSを含む」を有効にすると、すべてのネストされたスタイルを含む完全なUIコンポーネントを抽出できます！"
+  },
+
+  "tabCSS": {
+    "message": "CSS"
+  },
+  "tabHTML": {
+    "message": "HTML"
+  },
+  "tabSource": {
+    "message": "ソース"
+  },
+  "tabEditor": {
+    "message": "エディター"
+  },
+
+  "btnCopy": {
+    "message": "コピー"
+  },
+  "btnCodePen": {
+    "message": "CodePen"
+  },
+  "btnPin": {
+    "message": "固定"
+  },
+  "btnUnpin": {
+    "message": "固定解除"
+  },
+  "btnApply": {
+    "message": "適用"
+  },
+  "btnReset": {
+    "message": "リセット"
+  },
+  "btnSettings": {
+    "message": "設定"
+  },
+  "btnGuide": {
+    "message": "ガイドを表示"
+  },
+  "btnClose": {
+    "message": "閉じる"
+  },
+
+  "optionIncludeChildren": {
+    "message": "子要素のCSSを含む"
+  },
+  "optionCopyHTML": {
+    "message": "CSSと一緒にHTMLをコピー"
+  },
+  "optionCopyOnClick": {
+    "message": "クリックでCSSをコピー"
+  },
+  "optionPinOnSpace": {
+    "message": "スペースキーで固定/解除"
+  },
+  "optionShowGrid": {
+    "message": "グリッドを表示"
+  },
+
+  "notificationActivated": {
+    "message": "CSSスキャナーが有効化されました！"
+  },
+  "notificationDeactivated": {
+    "message": "CSSスキャナーが無効化されました"
+  },
+  "notificationCopied": {
+    "message": "クリップボードにコピーしました！"
+  },
+  "notificationPinned": {
+    "message": "インスペクターを固定しました"
+  },
+  "notificationUnpinned": {
+    "message": "インスペクターの固定を解除しました"
+  },
+  "notificationApplied": {
+    "message": "CSSを適用しました！"
+  },
+
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsSave": {
+    "message": "保存"
+  },
+
+  "footerFreeze": {
+    "message": "固定"
+  },
+  "footerUnfreeze": {
+    "message": "固定解除"
+  },
+  "footerSpace": {
+    "message": "スペース"
+  },
+  "footerBackspace": {
+    "message": "バックスペース"
+  },
+  "footerEsc": {
+    "message": "Esc"
+  },
+  "footerTo": {
+    "message": "で"
+  },
+  "footerClose": {
+    "message": "閉じる"
+  },
+
+  "settingsSectionOnClick": {
+    "message": "クリック時："
+  },
+  "settingsOptionCopyOnClick": {
+    "message": "要素クリック時に自動的にコードをコピー"
+  },
+  "settingsOptionPinOnSpace": {
+    "message": "スペースキー押下時にウィンドウを固定"
+  },
+  "settingsSectionChildCSS": {
+    "message": "子要素のCSS："
+  },
+  "settingsOptionIncludeChildren": {
+    "message": "子要素を含む"
+  },
+  "settingsOptionExcludeChildren": {
+    "message": "含まない"
+  },
+  "settingsSectionHTML": {
+    "message": "HTMLコード："
+  },
+  "settingsOptionCopyHTML": {
+    "message": "CSSと一緒にHTMLをコピー"
+  },
+  "settingsSectionDisplay": {
+    "message": "表示："
+  },
+  "settingsOptionShowGrid": {
+    "message": "グリッドオーバーレイを表示"
+  },
+  "settingsOptionGuidelines": {
+    "message": "ガイドライン"
+  },
+  "settingsSectionLanguage": {
+    "message": "言語："
+  },
+  "settingsLanguageAuto": {
+    "message": "自動検出（ブラウザのデフォルト）"
+  },
+  "settingsLanguageHelp": {
+    "message": "お好みの言語を選択してください。変更は保存後に適用されます。"
+  },
+  "settingsSectionSelectors": {
+    "message": "CSSセレクター："
+  },
+  "settingsSelectorSmart": {
+    "message": "スマートにセレクターを生成（#idまたは.classを使用）"
+  },
+  "settingsSelectorOriginal": {
+    "message": "元のセレクターをコピー（スタイルシートから）"
+  },
+  "settingsSelectorNone": {
+    "message": "CSSセレクターをコピーしない"
+  },
+  "settingsSelectorTruncated": {
+    "message": "短縮セレクター"
+  },
+  "settingsSectionOther": {
+    "message": "その他の設定："
+  },
+  "settingsOptionIgnoreInherited": {
+    "message": "継承されたスタイルを無視"
+  },
+  "settingsOptionIgnoreVendor": {
+    "message": "ブラウザベンダープレフィックスを無視"
+  },
+  "settingsOptionIgnoreBoxSizing": {
+    "message": "box-sizingを無視"
+  },
+  "settingsOptionConvertFontSize": {
+    "message": "font-sizeをpxに変換"
+  },
+  "settingsOptionNestPseudo": {
+    "message": "擬似クラスとメディアクエリをネスト"
+  },
+  "settingsOptionConvertURLs": {
+    "message": "相対URLを絶対URLに変換"
+  },
+  "settingsSaveButton": {
+    "message": "設定を保存"
+  },
+
+  "settingsSectionTheme": {
+    "message": "テーマ："
+  },
+  "settingsThemeDark": {
+    "message": "ダークモード"
+  },
+  "settingsThemeLight": {
+    "message": "ライトモード"
+  },
+
+  "cssVariablesTitle": {
+    "message": "CSS変数"
+  },
+  "cssVariablesDefined": {
+    "message": "要素で定義済み"
+  },
+  "cssVariablesUsed": {
+    "message": "スタイルで使用中"
+  },
+  "cssVariablesResolved": {
+    "message": "解決された値"
+  },
+  "cssVariablesInherited": {
+    "message": "継承元"
+  },
+  "cssVariablesNone": {
+    "message": "CSS変数は検出されませんでした"
+  },
+
+  "specificityLabel": {
+    "message": "詳細度"
+  },
+  "specificityTitle": {
+    "message": "CSS詳細度"
+  },
+
+  "animationsTitle": {
+    "message": "アニメーションとトランジション"
+  },
+  "animationsTransitions": {
+    "message": "トランジション"
+  },
+  "animationsAnimations": {
+    "message": "アニメーション"
+  },
+  "animationsKeyframes": {
+    "message": "@keyframes"
+  },
+  "animationsNone": {
+    "message": "アニメーションやトランジションなし"
+  },
+
+  "btnJSFiddle": {
+    "message": "JSFiddle"
+  },
+  "btnSCSS": {
+    "message": "SCSS"
+  },
+  "notificationSCSSCopied": {
+    "message": "SCSSをクリップボードにコピーしました！"
+  },
+
+  "boxModelTitle": {
+    "message": "ボックスモデル"
+  },
+  "colorPaletteTitle": {
+    "message": "カラーパレット"
+  },
+  "colorPaletteNone": {
+    "message": "色が検出されませんでした"
+  },
+  "notificationColorCopied": {
+    "message": "色をコピーしました！"
+  },
+
+  "featureJSFiddleExport": {
+    "message": "JSFiddleエクスポート - ワンクリックでfiddleをエクスポート"
+  },
+  "featureSCSSExport": {
+    "message": "SCSSエクスポート - 変数付きのネストされたSCSS"
+  },
+  "featureCSSVariables": {
+    "message": "CSS変数 - カスタムプロパティを検査"
+  },
+  "featureAnimationInspector": {
+    "message": "アニメーションインスペクター - トランジションとキーフレームを表示"
+  },
+  "featureSpecificity": {
+    "message": "詳細度計算機 - セレクターの重みを表示"
+  },
+
+  "breakpointLabel": {
+    "message": "ブレークポイント"
+  },
+  "breakpointXS": {
+    "message": "極小"
+  },
+  "breakpointSM": {
+    "message": "小"
+  },
+  "breakpointMD": {
+    "message": "中"
+  },
+  "breakpointLG": {
+    "message": "大"
+  },
+  "breakpointXL": {
+    "message": "特大"
+  },
+  "breakpointXXL": {
+    "message": "超特大"
+  },
+  "mediaQueryActive": {
+    "message": "アクティブ"
+  },
+  "mediaQueryInactive": {
+    "message": "非アクティブ"
+  }
+}

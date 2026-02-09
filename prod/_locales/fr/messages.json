@@ -297,5 +297,124 @@
   },
   "settingsSaveButton": {
     "message": "Enregistrer les paramètres"
+  },
+
+  "settingsSectionTheme": {
+    "message": "Thème :"
+  },
+  "settingsThemeDark": {
+    "message": "Mode sombre"
+  },
+  "settingsThemeLight": {
+    "message": "Mode clair"
+  },
+
+  "cssVariablesTitle": {
+    "message": "Variables CSS"
+  },
+  "cssVariablesDefined": {
+    "message": "Définies sur l'élément"
+  },
+  "cssVariablesUsed": {
+    "message": "Utilisées dans les styles"
+  },
+  "cssVariablesResolved": {
+    "message": "Valeur résolue"
+  },
+  "cssVariablesInherited": {
+    "message": "Hérité de"
+  },
+  "cssVariablesNone": {
+    "message": "Aucune variable CSS détectée"
+  },
+
+  "specificityLabel": {
+    "message": "Spécificité"
+  },
+  "specificityTitle": {
+    "message": "Spécificité CSS"
+  },
+
+  "animationsTitle": {
+    "message": "Animations et transitions"
+  },
+  "animationsTransitions": {
+    "message": "Transitions"
+  },
+  "animationsAnimations": {
+    "message": "Animations"
+  },
+  "animationsKeyframes": {
+    "message": "@keyframes"
+  },
+  "animationsNone": {
+    "message": "Aucune animation ou transition"
+  },
+
+  "btnJSFiddle": {
+    "message": "JSFiddle"
+  },
+  "btnSCSS": {
+    "message": "SCSS"
+  },
+  "notificationSCSSCopied": {
+    "message": "SCSS copié dans le presse-papiers !"
+  },
+
+  "boxModelTitle": {
+    "message": "Modèle de boîte"
+  },
+  "colorPaletteTitle": {
+    "message": "Palette de couleurs"
+  },
+  "colorPaletteNone": {
+    "message": "Aucune couleur détectée"
+  },
+  "notificationColorCopied": {
+    "message": "Couleur copiée !"
+  },
+
+  "featureJSFiddleExport": {
+    "message": "Export JSFiddle - Export fiddle en un clic"
+  },
+  "featureSCSSExport": {
+    "message": "Export SCSS - SCSS imbriqué avec variables"
+  },
+  "featureCSSVariables": {
+    "message": "Variables CSS - Inspecter les propriétés personnalisées"
+  },
+  "featureAnimationInspector": {
+    "message": "Inspecteur d'animations - Voir les transitions et keyframes"
+  },
+  "featureSpecificity": {
+    "message": "Calculateur de spécificité - Voir les poids des sélecteurs"
+  },
+
+  "breakpointLabel": {
+    "message": "Point de rupture"
+  },
+  "breakpointXS": {
+    "message": "Très petit"
+  },
+  "breakpointSM": {
+    "message": "Petit"
+  },
+  "breakpointMD": {
+    "message": "Moyen"
+  },
+  "breakpointLG": {
+    "message": "Grand"
+  },
+  "breakpointXL": {
+    "message": "Très grand"
+  },
+  "breakpointXXL": {
+    "message": "Extra grand"
+  },
+  "mediaQueryActive": {
+    "message": "Actif"
+  },
+  "mediaQueryInactive": {
+    "message": "Inactif"
   }
 }

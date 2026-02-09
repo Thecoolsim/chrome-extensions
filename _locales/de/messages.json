@@ -297,5 +297,124 @@
   },
   "settingsSaveButton": {
     "message": "Einstellungen speichern"
+  },
+
+  "settingsSectionTheme": {
+    "message": "Design:"
+  },
+  "settingsThemeDark": {
+    "message": "Dunkelmodus"
+  },
+  "settingsThemeLight": {
+    "message": "Hellmodus"
+  },
+
+  "cssVariablesTitle": {
+    "message": "CSS-Variablen"
+  },
+  "cssVariablesDefined": {
+    "message": "Auf Element definiert"
+  },
+  "cssVariablesUsed": {
+    "message": "In Stilen verwendet"
+  },
+  "cssVariablesResolved": {
+    "message": "Aufgelöster Wert"
+  },
+  "cssVariablesInherited": {
+    "message": "Geerbt von"
+  },
+  "cssVariablesNone": {
+    "message": "Keine CSS-Variablen erkannt"
+  },
+
+  "specificityLabel": {
+    "message": "Spezifität"
+  },
+  "specificityTitle": {
+    "message": "CSS-Spezifität"
+  },
+
+  "animationsTitle": {
+    "message": "Animationen und Übergänge"
+  },
+  "animationsTransitions": {
+    "message": "Übergänge"
+  },
+  "animationsAnimations": {
+    "message": "Animationen"
+  },
+  "animationsKeyframes": {
+    "message": "@keyframes"
+  },
+  "animationsNone": {
+    "message": "Keine Animationen oder Übergänge"
+  },
+
+  "btnJSFiddle": {
+    "message": "JSFiddle"
+  },
+  "btnSCSS": {
+    "message": "SCSS"
+  },
+  "notificationSCSSCopied": {
+    "message": "SCSS in Zwischenablage kopiert!"
+  },
+
+  "boxModelTitle": {
+    "message": "Box-Modell"
+  },
+  "colorPaletteTitle": {
+    "message": "Farbpalette"
+  },
+  "colorPaletteNone": {
+    "message": "Keine Farben erkannt"
+  },
+  "notificationColorCopied": {
+    "message": "Farbe kopiert!"
+  },
+
+  "featureJSFiddleExport": {
+    "message": "JSFiddle-Export - Fiddle-Export mit einem Klick"
+  },
+  "featureSCSSExport": {
+    "message": "SCSS-Export - Verschachteltes SCSS mit Variablen"
+  },
+  "featureCSSVariables": {
+    "message": "CSS-Variablen - Benutzerdefinierte Eigenschaften inspizieren"
+  },
+  "featureAnimationInspector": {
+    "message": "Animations-Inspektor - Übergänge und Keyframes anzeigen"
+  },
+  "featureSpecificity": {
+    "message": "Spezifitäts-Rechner - Selektorgewichte anzeigen"
+  },
+
+  "breakpointLabel": {
+    "message": "Haltepunkt"
+  },
+  "breakpointXS": {
+    "message": "Sehr klein"
+  },
+  "breakpointSM": {
+    "message": "Klein"
+  },
+  "breakpointMD": {
+    "message": "Mittel"
+  },
+  "breakpointLG": {
+    "message": "Groß"
+  },
+  "breakpointXL": {
+    "message": "Sehr groß"
+  },
+  "breakpointXXL": {
+    "message": "Extra groß"
+  },
+  "mediaQueryActive": {
+    "message": "Aktiv"
+  },
+  "mediaQueryInactive": {
+    "message": "Inaktiv"
   }
 }

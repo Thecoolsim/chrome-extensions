@@ -1,6 +1,6 @@
 # CSS Scanner Pro - Production Build
 
-Version: 1.0.0
+Version: 1.1.0
 
 ## Installation
 
@@ -13,20 +13,30 @@ Version: 1.0.0
 
 - `manifest.json` - Extension configuration
 - `js/background.js` - Service worker
-- `js/scanner-full.js` - Main scanner functionality (~78KB)
+- `js/scanner-full.js` - Main scanner functionality (~120KB)
 - `img/` - Extension icons (16px, 48px, 128px)
-- `_locales/` - Multi-language support (English, French, Spanish, German)
+- `_locales/` - Multi-language support (English, French, Spanish, German, Portuguese, Japanese)
 - `LICENSE` - MIT License
 
 ## Features
 
-✨ **Instant CSS inspection** on hover
-📋 **Multi-tab interface** (CSS, HTML, Source, Editor)
-✏️ **Live CSS editor** with real-time preview
-🖼️ **CodePen export** for quick sharing
-🎨 **Syntax highlighting** for easy reading
-🌍 **Multi-language support** (auto-detects browser language)
-⌨️ **Keyboard shortcuts** for fast workflow
+- Instant CSS inspection on hover
+- Multi-tab interface (CSS, HTML, Source, Editor)
+- Live CSS editor with real-time preview
+- CodePen & JSFiddle export for quick sharing
+- SCSS export with variables and nesting
+- Syntax highlighting for easy reading
+- CSS variable extraction and inspection
+- Specificity calculator for selectors
+- Animation & transition inspector
+- Box model visualization
+- Color palette extraction with clickable swatches
+- Light/Dark theme toggle
+- Responsive breakpoint indicator with media query badges
+- Enhanced keyboard navigation (number keys, sibling nav, quick copy)
+- Performance optimized (rAF throttle, stylesheet cache, lazy tabs)
+- Multi-language support (6 languages, auto-detects browser language)
+- Keyboard shortcuts for fast workflow
 
 ## Keyboard Shortcuts
 
@@ -35,23 +45,29 @@ Version: 1.0.0
 | Activate Scanner | Ctrl+Shift+S | Cmd+Shift+S |
 | Toggle Grid | Ctrl+Shift+G | Cmd+Shift+G |
 | Scan Parent | Ctrl+Shift+E | Cmd+Shift+E |
+| Switch to CSS tab | 1 | 1 |
+| Switch to HTML tab | 2 | 2 |
+| Switch to Source tab | 3 | 3 |
+| Switch to Editor tab | 4 | 4 |
+| Navigate to parent | Arrow Up | Arrow Up |
+| Navigate to child | Arrow Down | Arrow Down |
+| Navigate to prev sibling | Arrow Left | Arrow Left |
+| Navigate to next sibling | Arrow Right | Arrow Right |
+| Quick copy | Ctrl+C | Cmd+C |
+| Cycle sections | Tab / Shift+Tab | Tab / Shift+Tab |
 
 ## Support
 
-- 🌐 Website: https://adjatan.org/
-- 💻 GitHub: https://github.com/Thecoolsim
-- 🐛 Issues: https://github.com/Thecoolsim/chrome-extensions/issues
+- Website: https://adjatan.org/
+- GitHub: https://github.com/Thecoolsim
+- Issues: https://github.com/Thecoolsim/chrome-extensions/issues
 
 ## Author
 
 **Simon Adjatan**
 - Website: https://adjatan.org/
 - GitHub: https://github.com/Thecoolsim
-<<<<<<< HEAD
-- Twitter: https://x.com/adjatan
-=======
 - X: https://x.com/adjatan
->>>>>>> 27cb9a1 (Save local changes before rebase)
 - Facebook: https://www.facebook.com/adjatan
 
 ## License
